@@ -1,0 +1,13 @@
+3 types de poisons : neurotoxiques (paralysant), nécrosant, hémorragique
+
+Chaque poison est défini par une force, un délai d'action, et une fréquence.
+Les effets d'un poison ne se déclenchent qu'après écoulement de son délai d'action (et il est généralement impossible de deviner que l'on est affecté, étant donné qu'il n'y  pas d'effets). Les effets, sauf indication contraire, s'appliquent ensuite en fonction de la fréquence.
+
+neurotoxiques :
+La victime réalise un test de MA, et on soustrait son nombre de réussites à la force du poison (un poison de force 0 ou moins n'a pas d'effets). La victime subit ensuite un malus à tous ses tests égal à la valeur de force modifiée. Si cette valeur est supérieure à la MA de la victime, elle subit également des dégâts qui ne sont pas résistés. 
+
+nécrosants:
+La victime subit des dégâts cumulatifs égaux à la valeur de force du poison. Même si l'empoisonnement est guéri, les blessures ne guérissent pas et peuvent continuer à s'infecter si un test étendu de chirurgie (valeurs de dégâts subis) n'est pas réussi par un personnage.
+
+"hémorragique" -->mauvais terme, il faudra trouver le bon
+La victime réalise un test de MA, et on soustrait son nombre de réussites à la force du poison (un poison de force 0 ou moins n'a pas d'effets). La victime subit  des dégâts cumulatifs égaux à la valeur de force modifiée qui ne sont pas plus résistés. 
