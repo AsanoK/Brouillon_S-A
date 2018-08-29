@@ -1,0 +1,261 @@
+\documentclass[10pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\author{Antoine Robin}
+\title{De Sang et d'Acier}
+\begin{document}
+\title{De Sang et d'Acier}
+\maketitle
+\chapter*{Introduction}
+\chapter{Règles de base}
+\section{Lancers de dés}
+\subsection{Dés utilisés}
+Dans S\&A les dés utilisés sont tous des dés à dix faces : des décaèdres de la forme d’un trapézoèdre pentagonal, ou plus simplement des d10. Ainsi, si le MJ demande de lancer 5d10 dans le cadre d’un test, il s’agit de lancer 5 décaèdres.
+Chacun de ces dés est géré séparément : ceux ayant obtenus 8, 9 ou 10, sont considérés comme des SUCCÈS.
+Un dé qui obtient un 10 est dit explosif : il permet de lancer un nouveau dé, qui lui-même peut se révéler explosif, etc… Ce nouveau dé est utilisé comme s’il avait toujours fait parti des dés du test : il permet de gagner de nouveaux succès, etc, etc.
+\subsection{Tests simples}
+La majeure partie des tests du jeu impliquent soit une caractéristique seule, soit un couple caractéristique+compétence.
+Dans le cadre d’un test simple, on lance un nombre de d10 égal au score testé (score de caractéristique ou somme des scores de caractéristique et de compétence utilisés). Puis on compte le nombre de succès, avant de comparer avec le seuil nécessaire pour réussir (déterminé par le MJ). Ce seuil dépend de la difficulté de la tâche entreprise, mais le MJ peut également se référer à la table suivante pour s’aider:
+%TODO : tableau
+difficulté
+nombre de succès
+facile
+1
+normal
+2
+délicat
+3
+difficile
+4
+très difficile
+5
+surhumain
+7 et+
+
+
+La marge de réussite (ou d’échec), est la différence entre le seuil à obtenir et le nombre de succès.
+Le test simple s’utilise pour déterminer si un personnage réussit une action difficile en elle-même, mais sans opposition réelle.
+\subsection{Tests en opposition}
+Le test en opposition implique que deux personnages effectuent un test simple, puis, comparent leurs nombres de succès respectifs. Le gagnant est alors celui qui en a le plus.
+La marge de réussite est la différence entre les deux résultats.
+Un test en opposition s’utilise pour tester le résultat d’une opposition directe entre deux personnages ou entités.
+Il est possible d’obtenir une égalité dans un test en opposition, auquel cas, le MJ peut décider (suivant le cas), de considérer cela comme une double victoire, ou un double échec par exemple.
+\subsection{Tests étendus}
+Les tests étendus sont caractérisés par trois valeurs : leur objectif, leur seuil et leur intervalle.
+L’objectif est la marge de réussite totale à obtenir pour réussir, l’intervalle est le temps passé par le personnage pour chaque test. Le seuil est la difficulté de chaque test effectué.
+Tant que l’objectif n’est pas atteint par la valeur actuelle du test (ou que le personnage n’a pas abandonné), le personnage effectue des tests simples. On ajoute la marge de succès de chaque test à la valeur actuelle du test, et de même, on soustrait les marges d’échec de cette valeur. 
+Ce genre de test est utilisé pour déterminer le temps nécessaire à réaliser une tâche.
+\subsection{Notion de maîtrise}
+Un personnage disposant d’une maîtrise(n) sur une compétence, peut, aux cours de tout test de cette compétence, relancer les dés ayant obtenus moins de n. Le plus courant est maîtrise (1), qui permet de relancer les dés ayant obtenus un 1 sur les tests.
+\subsection{Travailler en équipe}
+Il est possible dans certains cas d’aider un autre personnage à effectuer une action. Avant que le personnage n’effectue son action, ceux qui souhaitent l’aider peuvent effectuer leur test, chacune de leur réussite donnant un dé supplémentaire au personnage réalisant l’action.
+\subsection{Acheter des réussites}
+Afin d’accélérer certaines phases impliquant de nombreux lancers de dés, ou de réaliser des tests à la fois très faciles et non critiques, il est possible “d’acheter” des réussites : au lieu d’effectuer un test simple, on calcule un nombre de réussite égal au quart du nombre de dé que l’on aurait utilisé pour le test (arrondi à l’inférieur).
+
+\section{Caractéristiques}
+En termes mécaniques, un personnage se définit en premier lieu par 8 valeurs, appelées caractéristiques.
+\subsection{Masse (MA)}
+Cette caractéristique représente la masse, principalement musculaire, mais pas uniquement, d’un personnage. Elle sert pour résoudre des actions où la force brute, mais aussi la résistance physique sont les facteurs principaux.
+Un personnage massif n’est pas forcément grand, mais il a une certaine carrure, une présence physique importante.
+inversement, un personnage avec une faible MA est probablement maigre, mince, peu athlétique.
+\subsection{Vitesse (VIT)}
+La vitesse quantifie la vitesse d’action, mais aussi de réaction d’un personnage : ses réflexes, sa vitesse de mouvement. Elle sert énormément lors des scènes d’action, quand le temps est un facteur critique.
+Un personnage vif saura réagir au quart de tour en cas de crise, à l’inverse d’un personnage plus lent.
+\subsection{Sociabilité (SOC)}
+La sociabilité représente autant  l’aisance du personnage à interagir avec les autres que son goût pour cela.
+Un personnage peu sociable aura peut-être tendance à briser certaines conventions, ou à avoir du mal à approcher les autres.. A l’inverse, un personnage très sociable aura un contact facile avec les autres, et passera facilement pour quelqu’un de sympathique.
+\subsection{Habileté (HAB)}
+L’habileté est la capacité d’un personnage à maîtriser ses actions : précision du geste, contrôle des actions, coordination, équilibre….
+Un personnage peu habile donne souvent l’impression d’être maladroit, un peu lourdaud, là où un personnage dont c’est le point fort a des mouvements soigneusement contrôlés, et un bon sens de l’équilibre.
+\subsection{Intuition (INT)}
+L’intuition mesure l’instinct d’un personnage, et surtout, la fiabilité de celui-ci ainsi que sa capacité d’adaptation.
+Un personnage avec une mauvaise intuition sera probablement peu observateur, et aura des difficultés à s’adapter à de nouvelles situations. Inversement, un personnage avec une bonne intuition jugera facilement d’une situation ou de son interlocuteur, et n’aura probablement aucun mal pour s’adapter si les choses évoluent rapidement.
+\subsection{Réflexion (REF)}
+Logique, mémoire, raisonnement
+\subsection{Concentration (CON)}
+Capacité à focaliser ses pensées, à les maîtriser.
+\subsection{Chance (CHA)}
+La façon dont le destin favorise le personnage.
+\section{Valeurs annexes}
+Les valeurs annexes sont des valeurs calculées depuis les caractéristiques.
+\subsection{Bonus de dégâts (BD):}
+Valeur fixe ajoutée à tous les jets de dégâts en mêlée du personnage. On le calcule avec : (MA+HAB)/2 (arrondi au supérieur).
+\subsection{Endurance(END) :}
+L’endurance sert à mesurer la résistance du personnage à l’effort. On la calcule avec (MA+CON)/2 (arrondi au supérieur).
+\subsection{Jauge de fatigue :}
+Il s’agit d’une représentation de l’état de fatigue du personnage. Pour gérer cela, on compare le score de points de fatigue à un ensemble de seuils, décrits plus en détail dans la section fatigue.
+\subsection{Seuils de blessure :}
+cf section blessure
+
+\section{Compétences}
+Les compétences () sont des compétences à domaine : chaque domaine est considéré comme une compétence à part.
+Il est possible d’effectuer un test d’une compétence proche avec l’accord du MJ (et un malus au test).
+Tenter d’effectuer un test sans aucune formation (aucun point) est toujours accompagné d’un malus de -2.
+Les compétences marquées d’un astérisque * nécessitent une formation : il est impossible de tenter un test sans avoir au moins un point dans cette compétence.
+
+
+\subsection{Combat}
+Le détails de l’utilisation des compétences de combat se trouve dans la section combat de ce livre.
+\subsubsection{Arme()}
+La compétence offensive en combat. Les domaines servent aux différents types d’armes : lames, couteaux, hast, contondantes, lance, bouclier…
+Si l’on est pas (ou mal)  formé à une arme, il est toujours possible de tenter un test en utilisant à la place de la valeur de cette arme la moitié de la meilleure valeur de la compétence arme.
+Comment s’utilise la compétence arme?
+Un test d’arme+VIT est l’action d’attaque classique en mêlée. On peut également réaliser un test d’arme+REF(2) pour analyser le niveau global d’un combattant (son score de compétence).
+\subsubsection{Visée()}
+La compétence offensive pour les armes de trait : arcs, frondes et arbalètes.
+Les domaines sont arcs, frondes et arbalètes.
+Comment s’utilise la compétence viser?
+Un personnage tirant avec une arme de trait effectue un test de viser+HAB. Les descriptions des armes et de leur mécanisme se fait dans la section sur l’équipement.
+\subsubsection{Lancer}
+“L’art” de jeter un projectile à la main vers une cible plus ou moins lointaine. Sert à lancer des couteaux, des haches, des pierres des javelots, des sagaies….Le lancer “assisté” (par exemple d’un propulseur avec une sagaie) est également utilisé avec cette compétence. 
+Comment s’utilise la compétence lancer?
+La compétence lancer s’utilise de la même façon que viser.
+\subsubsection{défense}
+La défense permet d’éviter de subir une attaque, que ce soit en mêlée ou à distance.
+Comment s’utilise la compétence défense?
+Les tests de défense+VIT sont utilisés pour se protéger des attaques ennemies. 
+\subsubsection{Corps à corps}
+Compétence de combat à main nue. Elle représente autant la capacité à mettre un coup que réaliser une projection ou saisir efficacement un adversaire.
+Comment s’utilise la compétence corps à corps?
+On peut réaliser un test de Corps à corps +VIT pour mettre un coup ou saisir un adversaire. On peut également réaliser un test de Corps à corps+MA pour réaliser une clé, une projection, ….
+\subsection{Déplacement}
+Plus de détails sur les compétence s de déplacement peut être trouvé dans la section sur l’aventure, dans la partie sur les voyages.
+\subsubsection{équitation}
+L’équitation est la capacité à gérer sa monture, mais aussi à en effectuer les soins de base. Elle permet de diriger sa monture, ou de la maîtriser dans des situations délicates, quand celle-ci s’emballe ou panique. Se déplacer à cheval est souvent la marque de la noblesse ou des gens aisés, ne serait-ce qu’en raison du coût élevé d’entretien de la monture.
+Comment s’utilise la compétence équitation?
+Un cheval a trois allures différentes, qui correspondent pour la monture et son cavalier à des efforts et des vitesses de déplacement différentes:
+Au pas, un cheval se déplace à 5km/h, au prix d’un effort faible pour lui et son cavalier.
+Au trot (ou à l’amble), le cheval se déplace à 14 km/h, pour un effort moyen pour lui-même et son cavalier
+Au galop, la vitesse varie entre 21 et 30 km/h suivant le cheval, qui subit un effort important. Son cavalier subit lui un effort moyen pendant ce temps.
+Le test du cheval pour résister est un test d’athlétisme+END.
+Un test d’équitation+HAB permet de limiter les effets en terme de fatigue d’un voyage à cheval, mais aussi diriger une monture dans un espace délicat (forêt ou rue avec des passants), notamment à grande vitesse. La difficulté du test pour la fatigue se trouve dans la section aventure, pour diriger la monture, la difficulté est fixée par le MJ. En cas d’échec, le personnage peut percuter un obstacle, se retrouver désarçonné….
+Un test d’équitation+INT peut être demandé par le MJ si la monture risque de s’emballer ou de s’effrayer, afin de la maîtriser. La difficulté du test est fixée par le MJ, suivant la situation.
+Enfin, un test d’équitation + HAB peut également servir à s’occuper de manière basique de sa monture. La difficulté du test est alors de 1.
+\subsubsection{natation}
+C’est le fait de savoir nager, et éventuellement résister aux courants. La plupart des gens sont capables de flotter sur quelques temps même sans formation, mais se déplacer efficacement requiert un peu de pratique. Elle peut servir pour tout personnage qui s’attendrait à devoir nager, que ce soit sur les côtes, en mer, ou en cas de chute dans une rivière.
+Comment s’utilise la compétence natation?
+Par défaut, une personne nage à 3km/h, soit environ 4m par round de combat.
+Un test de natation + HAB est utilisé pour nager rapidement ou diminuer la fatigue infligée par cette activité. Pour l’endurance, la difficulté du test se trouve dans la section aventures. Pour la natation rapide, chaque réussite permet d’ajouter 1 mètre à la distance parcourue par round. La natation est normalement un effort normal, mais en cas de courant, de matériel lourd ou de sprint, c’est un effort important.
+Un test de natation+MA sert à nager malgré un équipement lourd ou dans des courants importants.
+\subsubsection{escalade}
+C’est l’art de grimper sur une surface proche de la verticale : mur, arbre, palissade, falaise…. Elle peut servir à des personnages en exploration ou dans une zone urbaine par exemple, deux situations dans lesquelles des obstacles important peuvent bloquer le groupe. La plupart des gens n’en ont toutefois pas l’usage, à l’exception des ramoneurs et de forestiers dans certains cas.
+Comment s’utilise la compétence escalade ?
+Par défaut, la plupart des personnage n’ont pas de vitesse d’escalade. Ils peuvent toutefois grimper à chaque round d’une distance égale au nombre de réussites d’un test d’escalade+HAB, en mètre.
+Si aucune réussite n’est obtenue sur un tel test, il y a un risque de chute : le personnage effectue alors un jet de CHA. Si il n’a aucune réussite sur ce second test, il tombe, et subit alors les dégâts de chute adaptés.
+Suivant la difficulté de la surface, le MJ peut infliger un malus au test d’escalade.
+Enfin, l’escalade fait gagner un point de fatigue par round, à moins de réussir un test d’escalade de difficulté 5 supplémentaire, auquel cas, il s’agit tout de même d’un effort important.
+
+Surface
+malus
+Mur             en pierre
+-1 à -3 suivant la qualité de la construction    
+Arbre,             facile
+Pas             de malus
+Arbre,             difficile
+-1
+Falaise, non verticale
+-1    
+Falaise verticale
+-2    
+Falaise, dévers    
+-3
+
+Enfin, un personnage escaladant une paroi subit un malus de -1 par tranche de 5 kilos d’équipements.
+\subsubsection{athlétisme}
+L’athlétisme est la capacité d’un personnage à se déplacer sur le sol grâce à ses jambes, et ce, à différentes allures : la marche, la course, le sprint. La quasi-totalité des personnages peuvent avoir besoin de cette compétence, ne serait-ce que pour se déplacer : à moins d’être suffisamment riche pour disposer d’une monture ou de payer un autre moyen de transport, le personnage devra, à un moment ou un autre, marcher. Par ailleurs, un personnage peut être amené à s’enfuir, ou à en poursuivre un autre. Dans ces cas-là, la course à pied est le premier recours.
+Comment s’utilise la compétence athlétisme ?
+En premier lieu, un test d’athlétisme+END permet de limiter les effets d’un déplacement en terme de fatigue.
+
+\subsubsection{attelage}
+Direction d’un véhicule hippomobile (oui c’est un mot)
+\subsubsection{navigation}
+Gestion d’une embarcation, mais aussi réalisation de noeuds efficaces, ….
+\subsubsection{orientation}
+Savoir où l’on se situe et comment retrouver son chemin.
+\subsection{Social}
+\subsubsection{négociation}
+Obtenir quelque chose de l’autre partie.
+\subsubsection{intimidation}
+Obtenir quelque chose de l’autre partie… Sans demander gentiment.
+\subsubsection{mensonge}
+Raconter quelque chose de faux à l’autre partie. De manière crédible, on l’espère.
+\subsubsection{Discussion}
+garder une discussion intéressante, changer de sujet. Peut servir de “défense sociale”.
+\subsubsection{Sympathiser}
+Discuter sympathiquement avec l’autre partie, que ce soit dans un but purement platonique ou non.
+\subsubsection{Art()}
+Représente les capacités dans une forme d’art n’étant pas musicale. Un art créant quelque chose de physique sera plus du ressort de la compétence artisan. Les domaines sont variés : poésie, danse, jonglage….
+\subsubsection{Jeu()}
+Le talent dans les jeux de hasard et de stratégie. Permet de briller en société, de mettre du beurre dans les épinards, ou plus probablement de finir ruiné par quelqu’un qui y a un meilleur talent… Ou une meilleure technique de triche. Les domaines sont les différents types de jeu. Comme pour la compétence arme, on peut toujours tenter un jet avec la moitié du meilleur score.
+\subsubsection{Musique()}
+Jouer, que ce soit pour soi ou pour un public. Les domaines correspondent aux types d’instruments : voix, bois, cordes, cuivres, percussions, …
+\subsubsection{Commandement}
+Donner des ordres, et être suivi.
+\subsection{Aventure}
+\subsubsection{Discrétion}
+L’art de se dissimuler.
+\subsubsection{Crochetage }
+C’est la capacité à ouvrir une porte verrouillée sans disposer de la clé. Les usages sont généralement répréhensibles.
+\subsubsection{Chasse}
+Suivre une piste, interpréter des indices, identifier une empreinte.
+\subsubsection{Perception}
+Remarquer que quelque chose est étrange/un mouvement.
+\subsubsection{Fouille}
+Trouver quelque chose par une recherche poussée de la zone.
+\subsubsection{Artisanat()}
+Produire un objet : couvert, arme, oeuvre d’art, ….. Peut nécessiter du matériel, et nécessite des matériaux. Les domaines sont les différents artisanats existant: forge, poterie, peinture, gravure, sculpture, verrerie, bricolage, armurerie, cuisine, tannerie….
+\subsubsection{Escamotage}
+Faire disparaître un objet sans être remarqué. Peut, suivant le système judiciaire en cours, causer la perte du membre utilisé pour l’opération.
+\subsubsection{Contact animal ()}
+Approcher, s’occuper de et maîtriser un animal. Les domaines sont ici des types d’animaux : félins, canidés, bétail, volaille, rapaces, équidés, ....
+\subsubsection{Survie}
+Faire un feu, vider un animal, trouver un bon endroit pour le bivouac, ….
+\subsubsection{Gymnastique}
+L’art d’effectuer des mouvements étranges, comme des sauts (longueur ou hauteur).
+\subsubsection{Premiers soins}
+S’occuper d’une blessure récente de manière à stabiliser le blessé. Nécessite des bandages (plus ou moins improvisés) et potentiellement une aiguille et du fil.
+\subsubsection{Chirurgie }
+Extraire une flèche, ressouder correctement un os, mais aussi extraire une dent, trépaner un patient amputer un membre… Nécessite des outils barbares pour être utilisé (un couteau peut parfois suffire, mais n’est pas forcément adapté à la tâche). Oui, réaliser une amputation avec pour seul outil une hache est compliqué (il faut au moins un couteau en plus…).
+\subsubsection{Herboristerie}
+Connaître les utilités et les dangers des plantes, mais aussi les préparer comme onguent, remède ou cataplasme.
+\subsection{Savoirs}
+\subsubsection{Connaissances()*}
+Ensemble des savoirs détaillés sur un sujet, typiquement appris auprès d’un maître ou d’une université. Les domaines sont aussi nombreux que divers : arithmétique, astrologie, astronomie, théurgie, droit, zoologie, théologie….
+\subsubsection{Culture générale()}
+Ensemble des connaissances pratiques et des généralités obtenues par l’expérience sur un sujet. Les domaines sont par exemple : ville, région, organisation, ….
+\subsubsection{Gestion()}
+Organiser, planifier, que ce soit dans un but mercantile ou par exemple de la logistique. Les domaines sont les différents champs d’application : commerce, logistique, organisation.  Comme pour la compétence arme, on peut toujours tenter un jet avec la moitié du meilleur score.
+\subsubsection{Langue()}
+Chaque domaine de la compétence langue est une langue différente de l’univers de jeu, que le personnage peut comprendre.
+Un test de cette compétence n’est pas demandé dans la plupart des cas, mais peut être demandé pour comprendre un accent particulièrement prononcé, ou un discours complexe.
+\subsection{Magie}
+\subsubsection{Occultisme()*}
+La basse magie, sorcellerie… bref, l’art des sorciers de village. Décrit plus en détail dans la section sur la magie.
+\subsubsection{Kinésie()*}
+Haute magie, manipulation des éléments. cf Magie.
+\subsubsection{Shamanisme*}
+Forme de magie plus ancienne, proche d’entités anciennes, et basée sur des rituels.
+\subsubsection{Théurgie}
+Détection des phénomènes magiques (équivalent magique de la perception et de la fouille).
+\subsection{Religion}
+\subsubsection{Liturgie*}
+Ensemble des règles du culte d’une religion. cf règles de religion.
+
+\chapter{Règles détaillées}
+\section{L'aventure}
+\section{Combats}
+\section{Magie}
+\section{Religion}
+\section{équipements}
+\chapter{Création de personnages}
+\section{Résumé}
+\section{Enfance}
+\section{Formation}
+\section{Profession}
+\section{Personnalisation}
+\chapter{Univers}
+\chapter*{Annexe}
+\end{document}
