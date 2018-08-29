@@ -1,0 +1,11 @@
+Les compétences magiques:
+
+-sorcellerie : rituels mineurs.  Permet de réaliser des amulettes, de réaliser une divination, de maudire quelqu'un ou d'affecter son esprit.
+-haute magie: contrôle des éléments (?). Fatigue énormément le lanceur. La plupart des "sorts" sont des mini-rituels. Puissant, mais lent à mettre en place. Elements : feu, terre, air, eau, force, foudre, ombre, lumière.
+-shamanisme : permet de s'adresser à des esprits (divinités mineures), afin qu'ils répondent aux questions, acceptent de fournir une aide.... Proche dans l'idée d'une religion. Types d'esprits : ancêtres, éléments (feu, eau, terre, air)...
+-théurgie : permet de détecter l'usage de la magie, et d'étudier ce dont il s'agit . La magie peut se détecter tant sur un lieu ,que sur un objet, que sur un lanceur de sorts.
+
+La magie peut se réaliser en groupe pour améliorer le score obtenu (règle de travail en équipe?). Le score devant être obtenu pour avoir des gros effets devrait refléter ceci.
+
+Les rituels(tous), profitent de l'utilisation par le lanceur de sorts d'objets symboliques afin de s'aider : si on vise quelqu'un, une partie de son corps ou un objet proche, ou encore un symbole le représentant. Attention toutefois en cas de mauvaix choix de symboles, ceux-ci peuvent changer légèrement l'effet : la cible peut ne pas être la bonne par exemple. Ainsi, si on souhaite visualiser un noble, utiliser son blason comme composant peut produire comme effet de visualiser son chateau, auquel est plus associé le blason.
+En guise de rappel : le fer n'aime pas la magie, la magie n'aime pas le fer.
