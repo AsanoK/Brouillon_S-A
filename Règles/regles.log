@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.6)  29 AUG 2018 22:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.6)  30 AUG 2018 21:00
 entering extended mode
 **regles.tex
-(C:\Users\Antoine\Desktop\JdR_git\Brouillon_S-A\regles.tex
+(C:\Users\Antoine\Desktop\JdR_git\Brouillon_S-A\RÃ¨gles\regles.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -323,7 +323,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ("D:\Program Files (x86)\blah\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\Antoine\Desktop\JdR_git\Brouillon_S-A\regles.aux)
+(C:\Users\Antoine\Desktop\JdR_git\Brouillon_S-A\RÃ¨gles\regles.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
@@ -364,40 +364,53 @@ nues par l'expérience
 Chapter 2.
 [15
 
-] [16
-
-]
+] [16] [17] [18] [19] [20] [21] [22] [23] [24]
 Chapter 3.
-[17] [18
+
+Overfull \hbox (4.05365pt too wide) in paragraph at lines 552--554
+\T1/cmr/m/n/10 Le per-son-nage a suivi toute sa je-unesse di-verses ar-mées dan
+s le cortège d'individus
+ []
+
+[25
+
+] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
+Overfull \hbox (0.99884pt too wide) in paragraph at lines 791--792
+\T1/cmr/m/n/10 Le per-son-nage ne peut se passer d'une sub-stance spé-ci-fique,
+ typ-ique-ment l'alcool,
+ []
+
+[39] [40
 
 ]
 Chapter 4.
-[19] [20
+[41] [42
 
-] [21] (C:\Users\Antoine\Desktop\JdR_git\Brouillon_S-A\regles.aux) ) 
+] [43]
+(C:\Users\Antoine\Desktop\JdR_git\Brouillon_S-A\RÃ¨gles\regles.aux) ) 
 Here is how much of TeX's memory you used:
  1576 strings out of 493921
- 16446 string characters out of 3147277
+ 16502 string characters out of 3147277
  67644 words of memory out of 3000000
  4879 multiletter control sequences out of 15000+200000
  17590 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,6n,24p,617b,191s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\
-Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
-> <C:\Users\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecsl1000.pk> <C:\Users\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecbx1200.pk> <C:\Users\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Antoine\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Antoine\AppData\Loc
-al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Antoine
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\U
-sers\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm12
-00.pk> <C:\Users\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecrm1728.pk>
-Output written on regles.pdf (21 pages, 142267 bytes).
+ <C:\Users
+\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.p
+k> <C:\Users\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ecsl1000.pk> <C:\Users\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecbx1200.pk> <C:\Users\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Antoine\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Antoine\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Antoin
+e\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\
+Users\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
+200.pk> <C:\Users\Antoine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
+dpi600\ecrm1728.pk>
+Output written on regles.pdf (43 pages, 216434 bytes).
 PDF statistics:
- 412 PDF objects out of 1000 (max. 8388607)
+ 531 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
