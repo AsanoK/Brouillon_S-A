@@ -1,0 +1,34 @@
+Plusieurs types de blessure:
+-superficielles (rien de grave, mais peuvent éventuellement s'infecter) : égratignures, echimoses
+-légère : muscle légèrement touché, os fêlé, articulation luxée :malus, mais pas trop hadicapant
+-grave : fracture, organe interne touché, muscle sérieusement atteint : zones inutilisable, risque potentiel grave sur la santé
+-dévastatrice : fracture grave, zone tranchée, organe gravement atteint (non-fonctionnel), santé(survie) mise en jeu, à court et moyen terme, avec des séquelles potentielles sur le long terme.
+
+Par zone:
+bras : les blessures aux bras limitent les actions manuelles
+jambes : limitent la mobilité
+torse : côtes le plus souvent (notamment pour les cas peu graves), puis les poumons et/ou le coeur pour les cas les plus graves.
+ventre : au début gras et/ou muscles, en cas de blessure grave, organes internes touchés.
+Tête : superficialle : cicatrice bénine, avec un éventuel effet sur le social; légère : trauma cranien léger ou oreille endommagé ou cicatrice horrible; grave : trauma cranien moyen, oreille détruite, cicactrice horrible très probable, dents déchaussées; dévastatrice : trauma cranien grave, séquelles très probables à plus ou moins tous les niveaux.
+
+Toucher une zone : suivant l'attaque (haute ou basse):
+haute:
+1 : ventre
+2-4:bras droit
+5-7:bras gauche
+8-9 : torse
+10 : tête
+
+basse:
+1-3 : jambe droite
+4-6 : jambe gauche
+7-8 : ventre
+9 : un bras
+10 :torse
+
+Résistance d'une zone : si l'armure a bloqué le coup, chaque zone a un seuil de résistance:
+léger : 1
+grave : 2
+dévastatrice : 4
+
+La tête a +2 aux seuils, le torse +1, en rason de la structure de ces parties

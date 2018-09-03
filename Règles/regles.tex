@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper]{book}
+\documentclass[10pt,a4paper,twocolumn]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
@@ -251,13 +251,17 @@ Ensemble des règles du culte d’une religion. cf règles de religion.
 %TODO : tableaux et listes
 \subsubsection{Etats de fatigue - jauge de fatigue}
 Il y  a 7 états de fatigue, avec des effets différents :
-reposé : le personnage frais et dispo, pas d’effet particulier.
-échauffé : l’effort a commencé, mais pour le moment, sans aucun problème.
-essoufflé : les premières difficultés commencent à apparaître. Malus de -1 à tous les tests.
-fatigué : la fatigue commence à se faire sentir, et à diminuer l’efficacité du personnage : -2 à tous les tests.
-exténué : le personnage est amené dans ses derniers retranchements. Malus de -4 à tous les tests.
-terrassé : le personnage est au-delà de ses limites, et le paiera très cher le lendemain. Malus de -6 à tous les tests, et commencera le lendemain avec un niveau de fatigue plus important : sans autre problème, le personnage passera la prochaine journée à l’état échauffé.
-coma : Le personnage tombe dans l’inconscience après ses efforts trop importants.
+
+\begin{itemize}
+
+\item{reposé} : le personnage frais et dispo, pas d’effet particulier.
+\item{échauffé} : l’effort a commencé, mais pour le moment, sans aucun problème.
+\item{essoufflé} : les premières difficultés commencent à apparaître. Malus de -1 à tous les tests.
+\item{fatigué} : la fatigue commence à se faire sentir, et à diminuer l’efficacité du personnage : -2 à tous les tests.
+\item{exténué} : le personnage est amené dans ses derniers retranchements. Malus de -4 à tous les tests.
+\item{terrassé} : le personnage est au-delà de ses limites, et le paiera très cher le lendemain. Malus de -6 à tous les tests, et commencera le lendemain avec un niveau de fatigue plus important : sans autre problème, le personnage passera la prochaine journée à l’état échauffé.
+\item{coma} : Le personnage tombe dans l’inconscience après ses efforts trop importants.
+\end{itemize}
 Le personnage progresse dans ces états en fonction du nombre de points de fatigue gagnés aux cours des efforts entrepris.
 Une fois le seuil Ec franchi, le personnage est échauffé. 
 Es correspond au seuil pour être essoufflé, F à fatigué, Ex à exténué, T à terrassé et C pour coma.
@@ -344,10 +348,13 @@ basse noblesse locale
 noblesse moyenne, haut clergé
 
 Ce score peut être utilisé dans certains cas (en test simple), pour : 
-limiter un problème avec les autorités
-rechercher quelqu’un en particulier
-obtenir une audience avec quelqu’un
-être reconnu par quelqu’un
+\begin{itemize}
+\item{}limiter un problème avec les autorités
+\item{}rechercher quelqu’un en particulier
+\item{}obtenir une audience avec quelqu’un
+\item{}être reconnu par quelqu’un
+\end{itemize}
+
 Au sein d’une communauté dans laquelle ils viennent d’arriver, un groupe de personnage devrait se situer par défaut entre 0 et 2 en renommée, suivant leur apparence (si l’un d’eux a l’air d’un chevalier, on peut imaginer 2, si ils ressemblent à des pouilleux, 0 est plus adapté). Avec le temps, et de bonnes relations avec les habitants, ce score peut s’améliorer.
 
 \section{Combats}
@@ -360,10 +367,13 @@ Pour réaliser une attaque en mêlée, on effectue un test en opposition entre l
     En cas d’égalité, l’attaquant calcule les dégâts, et le défenseur peut contre-attaquer simultanément.
     
     Il n’est possible d’attaquer en mêlée que si la cible se trouve à bonne distance. Chaque arme est évidemment plus facile à manier à certaines distances. S\&A distingue 4 distances de combat:
-Le corps à corps correspond à la distance de combat à mains nues, soit environ de 0 à 1m
-La mêlée est la distance normale de frappe pour les armes à une main : entre 1 et 2m.
-La distance moyenne est dans un duel la distance à laquelle les deux adversaires se placent pour se jauger. C’est aussi la zone de frappe de bon nombre d’armes à deux main : entre 2 et 3m.
-Enfin, la distance longue est presque exclusivement une distance d’observation, quoique certaines armes particulièrement longues puissent y être à l’aise : de 3 à 5 m.
+    \begin{itemize}
+    \item{}Le corps à corps correspond à la distance de combat à mains nues, soit environ de 0 à 1m
+\item{}La mêlée est la distance normale de frappe pour les armes à une main : entre 1 et 2m.
+\item{}La distance moyenne est dans un duel la distance à laquelle les deux adversaires se placent pour se jauger. C’est aussi la zone de frappe de bon nombre d’armes à deux main : entre 2 et 3m.
+\item{}Enfin, la distance longue est presque exclusivement une distance d’observation, quoique certaines armes particulièrement longues puissent y être à l’aise : de 3 à 5 m.
+    \end{itemize}
+
 Les éventuels malus dus à la distance dépendant de l’arme utilisée, ils sont listés dans la section équipement du présent manuel.
 \subsubsection{Enchainer les parades}
 Pour représenter la difficulté à gérer de nombreuses attaques arrivant dans sa direction, chaque personnage subit un malus cumulatif de -2 pour chaque test de défense après le premier dans le tour. C’est à dire que la seconde défense se fait avec un -2, et la troisième avec -4, etc. Ce malus est également appliqué pour les attaques à distance, sauf si le défenseur utilise un bouclier.
@@ -372,11 +382,14 @@ En plus du combat armé, il est possible d’utiliser des techniques de combat �
 Pour infliger un coup, il suffit d’effectuer un test opposé de Corps à corps + VIT, et de continuer comme s’il s’agissait d’une attaque de mêlée normale (les valeurs de dégâts des poings/gantelets/casques/éléments divers sont dans la section équipement).
 On peut également tenter de saisir son adversaire avec un test de Corps à corps+VIT (toujours contre défense+VIT), afin de lui infliger plus tard une projection, une clé….
 On effectue alors un test opposé de Corps à Corps +MA, permettant d’infliger une des situations suivantes à l’adversaire:
-l’adversaire doit lâcher son arme.
-L’adversaire se retrouve déplacé d’un mètre dans une direction choisie par l’attaquant.
-L’adversaire se retrouve jeté au sol.
-L’adversaire ne peut plus agir avec un membre choisit tant qu’il n’a pas réussi à se débarrasser de la lutte (test opposé de Masse+Corps à corps gagné).
+\begin{itemize}
+\item{}l’adversaire doit lâcher son arme.
+\item{}L’adversaire se retrouve déplacé d’un mètre dans une direction choisie par l’attaquant.
+\item{}L’adversaire se retrouve jeté au sol.
+\item{}L’adversaire ne peut plus agir avec un membre choisit tant qu’il n’a pas réussi à se débarrasser de la lutte (test opposé de Masse+Corps à corps gagné).
 Quitter la lutte (faire lâcher prise à son adversaire).
+\end{itemize}
+
 \subsubsection{être sonné}
 Il y a plusieurs raisons pour lesquelles un personnage pourrait être sonné sur un champ de bataille.
     En premier lieu, si il se retrouve violemment projeté au sol, et ce qu’elle qu’en soit la raison. Il peut alors réaliser un test Moyen (2) de Concentration+Vitesse pour ne pas être sonné.
