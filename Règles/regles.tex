@@ -4,11 +4,15 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage[tight]{shorttoc}
+\newcommand{\sommaire}{\shorttoc{Sommaire}{1}}
+
 \author{Antoine Robin}
 \title{De Sang et d'Acier}
 \begin{document}
 \title{De Sang et d'Acier}
 \maketitle
+\sommaire
 \chapter*{Introduction}
 \chapter{Règles de base}
 \section{Lancers de dés}
@@ -18,23 +22,23 @@ Chacun de ces dés est géré séparément : ceux ayant obtenus 8, 9 ou 10, sont
 Un dé qui obtient un 10 est dit explosif : il permet de lancer un nouveau dé, qui lui-même peut se révéler explosif, etc… Ce nouveau dé est utilisé comme s’il avait toujours fait parti des dés du test : il permet de gagner de nouveaux succès, etc, etc.
 \subsection{Tests simples}
 La majeure partie des tests du jeu impliquent soit une caractéristique seule, soit un couple caractéristique+compétence.
-Dans le cadre d’un test simple, on lance un nombre de d10 égal au score testé (score de caractéristique ou somme des scores de caractéristique et de compétence utilisés). Puis on compte le nombre de succès, avant de comparer avec le seuil nécessaire pour réussir (déterminé par le MJ). Ce seuil dépend de la difficulté de la tâche entreprise, mais le MJ peut également se référer à la table suivante pour s’aider:
-%TODO : tableau
-difficulté
-nombre de succès
-facile
-1
-normal
-2
-délicat
-3
-difficile
-4
-très difficile
-5
-surhumain
-7 et+
+Dans le cadre d’un test simple, on lance un nombre de d10 égal au score testé (score de caractéristique ou somme des scores de caractéristique et de compétence utilisés). Puis on compte le nombre de succès, avant de comparer avec le seuil nécessaire pour réussir (déterminé par le MJ). Ce seuil dépend de la difficulté de la tâche entreprise, mais le MJ peut également se référer à la table \ref{tableDiffTests} pour s’aider.
 
+\begin{table}
+\caption{ Difficulté des tests :}
+\label{tableDiffTests}
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Difficulté} & \textbf{nombre de succès} \\
+   facile & 1  \\
+   normal & 2  \\
+   délicat & 3 \\
+   difficile & 4 \\
+   très difficile & 5 \\
+   surhumain & 6 et + \\
+\end{tabular}
+\end{center}
+\end{table}
 
 La marge de réussite (ou d’échec), est la différence entre le seuil à obtenir et le nombre de succès.
 Le test simple s’utilise pour déterminer si un personnage réussit une action difficile en elle-même, mais sans opposition réelle.
@@ -127,9 +131,12 @@ Plus de détails sur les compétence s de déplacement peut être trouvé dans l
 L’équitation est la capacité à gérer sa monture, mais aussi à en effectuer les soins de base. Elle permet de diriger sa monture, ou de la maîtriser dans des situations délicates, quand celle-ci s’emballe ou panique. Se déplacer à cheval est souvent la marque de la noblesse ou des gens aisés, ne serait-ce qu’en raison du coût élevé d’entretien de la monture.
 Comment s’utilise la compétence équitation?
 Un cheval a trois allures différentes, qui correspondent pour la monture et son cavalier à des efforts et des vitesses de déplacement différentes:
-Au pas, un cheval se déplace à 5km/h, au prix d’un effort faible pour lui et son cavalier.
-Au trot (ou à l’amble), le cheval se déplace à 14 km/h, pour un effort moyen pour lui-même et son cavalier
-Au galop, la vitesse varie entre 21 et 30 km/h suivant le cheval, qui subit un effort important. Son cavalier subit lui un effort moyen pendant ce temps.
+\begin{itemize}
+\item Au pas, un cheval se déplace à 5km/h, au prix d’un effort faible pour lui et son cavalier.
+\item Au trot (ou à l’amble), le cheval se déplace à 14 km/h, pour un effort moyen pour lui-même et son cavalier
+\item Au galop, la vitesse varie entre 21 et 30 km/h suivant le cheval, qui subit un effort important. Son cavalier subit lui un effort moyen pendant ce temps.
+\end{itemize}
+
 Le test du cheval pour résister est un test d’athlétisme+END.
 Un test d’équitation+HAB permet de limiter les effets en terme de fatigue d’un voyage à cheval, mais aussi diriger une monture dans un espace délicat (forêt ou rue avec des passants), notamment à grande vitesse. La difficulté du test pour la fatigue se trouve dans la section aventure, pour diriger la monture, la difficulté est fixée par le MJ. En cas d’échec, le personnage peut percuter un obstacle, se retrouver désarçonné….
 Un test d’équitation+INT peut être demandé par le MJ si la monture risque de s’emballer ou de s’effrayer, afin de la maîtriser. La difficulté du test est fixée par le MJ, suivant la situation.
@@ -147,21 +154,22 @@ Par défaut, la plupart des personnage n’ont pas de vitesse d’escalade. Ils 
 Si aucune réussite n’est obtenue sur un tel test, il y a un risque de chute : le personnage effectue alors un jet de CHA. Si il n’a aucune réussite sur ce second test, il tombe, et subit alors les dégâts de chute adaptés.
 Suivant la difficulté de la surface, le MJ peut infliger un malus au test d’escalade.
 Enfin, l’escalade fait gagner un point de fatigue par round, à moins de réussir un test d’escalade de difficulté 5 supplémentaire, auquel cas, il s’agit tout de même d’un effort important.
-
-Surface
-malus
-Mur             en pierre
--1 à -3 suivant la qualité de la construction    
-Arbre,             facile
-Pas             de malus
-Arbre,             difficile
--1
-Falaise, non verticale
--1    
-Falaise verticale
--2    
-Falaise, dévers    
--3
+Différents Bonus ou malus peuvent être appliqués suivant la nature de la surface escaladée. Pour cela, on peut se référer à la table \ref{tableEscalade}.
+\begin{table*}
+\caption{ Surfaces d'escalade :}
+\label{tableEscalade}
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Surface} & \textbf{Malus} \\
+   Mur en pierre & -1 à -3 suivant la qualité de construction\\
+   Arbre, facile & pas de malus, voire un bonus\\
+   Arbre, peu de branches & -1\\
+   Falaise, facile & pas de malus\\
+   Falaise, verticale & -1 à -2\\
+   Falaise, dévers & -2 à -3\\
+\end{tabular}
+\end{center}
+\end{table*}
 
 Enfin, un personnage escaladant une paroi subit un malus de -1 par tranche de 5 kilos d’équipements.
 \subsubsection{athlétisme}
@@ -264,43 +272,40 @@ Il y  a 7 états de fatigue, avec des effets différents :
 \end{itemize}
 Le personnage progresse dans ces états en fonction du nombre de points de fatigue gagnés aux cours des efforts entrepris.
 Une fois le seuil Ec franchi, le personnage est échauffé. 
-Es correspond au seuil pour être essoufflé, F à fatigué, Ex à exténué, T à terrassé et C pour coma.
-Calcul :
-seuil
-valeur
-Ec
-END/2 (arrondi au supérieur)
-Es
-END
-F
-END+3
-Ex
-END+7
-T
-END+10
-C
-END+12
+Le calcul des différents seuil se trouve dans la table \ref{tableSeuilsFatigue}.
+
+\begin{table}
+\caption{ Seuils de fatigue :}
+\label{tableSeuilsFatigue}
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Seuil} & \textbf{valeur} \\
+   Échauffé & END/2(arrondi au supérieur)  \\
+   Essoufflé & END  \\
+   Fatigué & END+3 \\
+   Exténué & END+7 \\
+   Terrassé & END+10 \\
+   Coma & END+12 \\
+\end{tabular}
+\end{center}
+\end{table}
 \subsubsection{Efforts - gagner des points de fatigue}
 Il y a plusieurs moyens de gagner des points de fatigue.
 En premier lieu, chaque round de combat entraîne le gain d’un point de fatigue automatiquement. Il est toutefois possible pour un personnage de récupérer des points de fatigue en y consacrant un round complet. Auquel cas le personnage regagne un nombre de point de fatigue égal à sa valeur d’END, mais ne peut pas diminuer son état de fatigue.
 En plus de ces efforts brefs, il est possible de gagner des points de fatigue avec des efforts prolongés.
-Suivant la difficulté des efforts, un personnage gagne un point de fatigue après une certaine durée. Il est également possible de réduire la difficulté d’un effort en réussissant un test d’END+compétence, avec la compétence adaptée à l’effort. La difficulté de ce test est indiqué dans la table suivante. Un effort faible réduit n’est pas annulé, mais a une durée de 1h pour gagner un point de fatigue.
-
-effort
-durée
-difficulté 
-faible
-30 minutes
-2
-normal
-1 minutes
-4
-important
-5 secondes
-6
-Un effort faible est par exemple de la marche à pied relativement dynamique.
-Un effort normal est une course tranquille par exemple.
-Un effort important est un sprint par exemple.
+Suivant la difficulté des efforts, un personnage gagne un point de fatigue après une certaine durée. Il est également possible de réduire la difficulté d’un effort en réussissant un test d’END+compétence, avec la compétence adaptée à l’effort. La difficulté de ce test est indiqué dans la table \ref{tableDiffFatigue}. Un effort faible réduit n’est pas annulé, mais a une durée de 1h pour gagner un point de fatigue.
+\begin{table*}
+\caption{ Réduire un effort :}
+\label{tableDiffFatigue}
+\begin{center}
+\begin{tabular}{cccc}
+\textbf{Effort} & \textbf{Durée} & \textbf{Difficulté} &\textbf{exemple} \\
+   faible & 30 minutes & 2  & marche à pied, pas\\
+   normal & 1 minute & 4  & course tranquille, pas de course\\
+   important & 5 secondes & 6 & course rapide, pas de charge\\
+\end{tabular}
+\end{center}
+\end{table*}
 
 \subsection{Environnement}
 \subsubsection{Chute :}
@@ -315,38 +320,43 @@ TODO
 \subsection{Contacts}
 Les contacts d’un personnages sont des personnages qui pourraient accepter de lui accorder des faveurs en cas de besoin.
 Chaque contact dispose d’un score de service, représentant sa volonté d’aider le personnage.
-Pour faire appel à cette aide, un personnage doit réaliser un test de service+SOC, dont la difficulté est déterminée par la table suivante:
+Pour faire appel à cette aide, un personnage doit réaliser un test de service+SOC, dont la difficulté est déterminée par la table \ref{tableFaveurs}.
 
-faveur
-difficulté
-mineure : petit prêt, aide sans risque, ...
-2
-moyenne
-3
-importante
-4
-critique
-5
+\begin{table}
+\caption{ Demander une faveur :}
+\label{tableFaveurs}
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Faveur} & \textbf{Difficulté} \\
+   mineure & 2  \\
+   moyenne & 3  \\
+   importante & 4 \\
+   critique & 5\\
+\end{tabular}
+\end{center}
+\end{table}
 \subsection{Renommée}
-La renommée d’un personnage est une indication de la façon dont il est connu au sein d’une communauté. Il est utilisé pour déterminer l’attitude globale des personnages envers celui-ci.
+La renommée d’un personnage est une indication de la façon dont il est connu au sein d’une communauté. Il est utilisé pour déterminer l’attitude globale des personnages envers celui-ci. Plus de détails dans la table \ref{tableRenommée}.
 
-score
-niveau social équivalent
-0
-vagabond, prostituée, ...
-1
-voyageur, habitant pauvre
-2
-habitant moyen, chevalier errant
-3
-respectable citoyen
-4
-notable, bourgeois, bas clergé
-5
-basse noblesse locale
-6
-noblesse moyenne, haut clergé
 
+\begin{table}
+\caption{ Renommée :}
+\label{tableRenommée}
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Score} & \textbf{Niveau social équivalent} \\
+   0 & vagabond, prostituée  \\
+   1 & voyageur, habitant pauvre  \\
+   2 & habitant moyen, chevalier errant \\
+   3 & respectable citoyen, bas clergé\\
+   4 & notable, bourgeois \\
+   5 & basse noblesse locale, clergé \\
+   6 & noblesse moyenne \\
+   7 & haute noblesse, haut clergé \\
+   8 & souverain \\
+\end{tabular}
+\end{center}
+\end{table}
 Ce score peut être utilisé dans certains cas (en test simple), pour : 
 \begin{itemize}
 \item{}limiter un problème avec les autorités
@@ -396,54 +406,51 @@ Il y a plusieurs raisons pour lesquelles un personnage pourrait être sonné sur
 
 Un personnage sonné peut effectuer un test facile (1) de Concentration pour ne plus l’être, et ce, au début de son tour de jeu.
 \subsubsection{Modificateurs circonstanciels}
-La table suivante liste une partie des modificateurs classiques sur les jets de combat en mêlée:
-Raison
-Modificateur
-attaque de dos
--5 au test de défense
-attaque de flanc
--2 au test de défense
-attaque ciblée
--1 à l’attaque
-ignorer l’armure
--3 à l’attaque
-combat au bouclier
-+1 à +5 au test de défense
-combat à deux armes
-+1 au test de défense, +2 au test de contre-attaque, nécessite une arme courte en main secondaire
+La table \ref{tableModifCombats} liste une partie des modificateurs classiques sur les jets de combat en mêlée.
+\begin{table*}
+\caption{ Modificateurs courants en combat :}
+\label{tableModifCombats}
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Raison} & \textbf{Modificateur} \\
+   attaque de dos & -5 au test de défense  \\
+   attaque de flanc & -2 au test de défense  \\
+   attaque ciblée & -1 au test d'attaque\\
+   viser les faiblesses de l'armure & -3 à l'attaque\\
+   combattre au bouclier & +1 à +5 au test de défense \\
+   combat à deux armes & +1 au test de défense, +2 au test de contre-attaque, nécessite une arme courte en main secondaire\\
+\end{tabular}
+\end{center}
+\end{table*}
 \subsection{Le combat à distance:}
 Le combat à distance se gère par deux tests simples :
 En premier lieu l’attaquant réalise un test d’arme+HAB. En cas d’échec, le projectile ne touche pas sa cible. La difficulté du test est indiquée dans le tableau suivant :
-TODO
-En cas de réussite, le défenseur effectue un test de VIT+défense, avec un seuil dépendant du type de tir effectué:
 
-Attaque
-seuil de défense
-arme de jet (couteaux, haches, javelots)
-3
-arme de trait (flèche, carreau)
-4
+
+TODO
+
+
+En cas de réussite, le défenseur effectue un test de VIT+défense, avec un seuil dépendant du type de tir effectué. Pour cela, on peut se référer à la table \ref{tableDiffContreTirs}.
+
+\begin{table}
+\caption{ Défense contre tirs :}
+\label{tableDiffContreTirs}
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Attaque} & \textbf{Seuil de défense} \\
+   arme de jet (javelots...) & 3\\
+   arme de trait (flèche...) & 4\\
+\end{tabular}
+\end{center}
+\end{table}
 En cas de réussite à ce second test, le projectile est bloqué ou évité par le personnage attaqué, et n’inflige aucun dégât. 
 En cas d’échec, l’attaque inflige des dégâts.
 \subsection{Infliger des dégâts:}
-Avant de déterminer, quels dégâts sont infligés, il faut savoir quelle zone de la cible est touchée. Pour un humanoïde, on lance 1d10 sur la table suivante:
+TODO
 
-résultat du dé
-zone touchée
-1
-jambe droite
-2
-jambe gauche
-3-4
-bras droit
-5-6
-bras gauche
-7-8
-torse
-9-10
-tête
+
 Il est également possible de viser une zone spécifique, au prix d’un malus de -1 à l’attaque.
-Une attaque réussie inflige un nombre de dégâts égal à la VD de l’arme+marge du test d’attaque au défenseur+Bonus de dégâts(pour une attaque au corps à corps) . On soustrait à cette valeur l’armure de la cible avant de comparer cela à ses seuils de blessure. La valeur d’armure utilisée (tranchante, perforante ou contondante) dépend du type d’attaque utilisée.
+
 Avec la plupart des armures, il est possible de viser dans les brèches de celle-ci, en subissant un malus de -3.
 
 \section{Magie}
@@ -805,4 +812,5 @@ Le personnage ne peut se passer d'une substance spécifique, typiquement l'alcoo
 
 \chapter{Univers}
 \chapter*{Annexe}
+\tableofcontents
 \end{document}
