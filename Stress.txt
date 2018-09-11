@@ -7,7 +7,7 @@ stress léger : pas d'effets permanent, problèmes de concentration, vomissement
 stress important : difficulté à dormir, légers changements de personnalité : agressivité, panique, le personnage est en train de craquer
 traumatisme : effets durables sur la personnalité, PTSD, séquelles psychologiques.
 
-Il est possible de baisser le niveau de stress avec du temps de repos, mais aussi des moments de détente : musique, vices, tout ce qui peut calmer le personnage.
+Il est possible de baisser le niveau de stress avec du temps de repos, mais aussi des moments de détente : musique, vices, tout ce qui peut calmer le personnage. La religion peut également être une aide ici.
 Si c'est un évènement et non le temps qui est utilisé, le personnage peut réaliser un test de CON et perdre autant de points de stress que son nombre de réussite.
 
 seuil léger : CON
