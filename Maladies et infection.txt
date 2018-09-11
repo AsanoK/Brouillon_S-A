@@ -2,7 +2,7 @@ médecine : identification des maladies, connaissance du corps humain, des remède
 apothicaire : réalisation d'un remède à base de plantes, de minéraux.... Permet éventuellement de connaître le bon remède à un problème donné (s'il est courant)
 chirurgie : réalisation d'une intervention directe : réduction de fracture, ablation, amputation, extraction, saignée.... Peut (va) causer des dommages au patient.
 herboristerie : permet de fournir certains éléments à l'apothicaire, de reconnaître des plantes, mais aussi potentiellement de bénéficier de remèdes de grand-mères.
-
+Premiers soins : gérer une blessure ouverte, stabiliser l'état d'un blessé (principalement de la traumato).
 
 Chaque maladie : un vecteur, une difficulté pour résister à l'infection, puis les règles détaillées de chacune. La difficulté d'une même maladie peut varier suivant la souche (décision du MJ, ne devrait pas changer de plus de 1).
 Résistance réalisée avec MA+CHA.

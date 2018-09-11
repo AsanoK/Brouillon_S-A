@@ -65,6 +65,7 @@
 \contentsline {subsubsection}{Culture g\IeC {\'e}n\IeC {\'e}rale()}{13}
 \contentsline {subsubsection}{Gestion()}{13}
 \contentsline {subsubsection}{Langue()}{13}
+\contentsline {subsubsection}{M\IeC {\'e}decine}{13}
 \contentsline {subsection}{\numberline {1.4.6}Magie}{13}
 \contentsline {subsubsection}{Occultisme()*}{13}
 \contentsline {subsubsection}{Kin\IeC {\'e}sie()*}{13}
@@ -81,66 +82,69 @@
 \contentsline {subsubsection}{Chute :}{16}
 \contentsline {subsubsection}{Flammes :}{16}
 \contentsline {section}{\numberline {2.2}Blessures, soins et gu\IeC {\'e}rison}{16}
-\contentsline {section}{\numberline {2.3}Relations sociales}{16}
-\contentsline {subsection}{\numberline {2.3.1}Contacts}{16}
-\contentsline {subsection}{\numberline {2.3.2}Renomm\IeC {\'e}e}{16}
-\contentsline {section}{\numberline {2.4}Combats}{17}
-\contentsline {subsection}{\numberline {2.4.1}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s:}{17}
-\contentsline {subsection}{\numberline {2.4.2}Combat en m\IeC {\^e}l\IeC {\'e}e:}{17}
-\contentsline {subsubsection}{Enchainer les parades}{17}
-\contentsline {subsubsection}{Le combat \IeC {\`a} mains nues}{17}
-\contentsline {subsubsection}{\IeC {\^e}tre sonn\IeC {\'e}}{17}
+\contentsline {subsection}{\numberline {2.2.1}Blessures}{16}
+\contentsline {subsection}{\numberline {2.2.2}Maladies, infections et poisons}{17}
+\contentsline {section}{\numberline {2.3}Stress et folie}{17}
+\contentsline {section}{\numberline {2.4}Relations sociales}{17}
+\contentsline {subsection}{\numberline {2.4.1}Contacts}{17}
+\contentsline {subsection}{\numberline {2.4.2}Renomm\IeC {\'e}e}{17}
+\contentsline {section}{\numberline {2.5}Combats}{17}
+\contentsline {subsection}{\numberline {2.5.1}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s:}{17}
+\contentsline {subsection}{\numberline {2.5.2}Combat en m\IeC {\^e}l\IeC {\'e}e:}{18}
+\contentsline {subsubsection}{Enchainer les parades}{18}
+\contentsline {subsubsection}{Le combat \IeC {\`a} mains nues}{18}
+\contentsline {subsubsection}{\IeC {\^e}tre sonn\IeC {\'e}}{18}
 \contentsline {subsubsection}{Modificateurs circonstanciels}{18}
-\contentsline {subsection}{\numberline {2.4.3}Le combat \IeC {\`a} distance:}{18}
-\contentsline {subsection}{\numberline {2.4.4}Infliger des d\IeC {\'e}g\IeC {\^a}ts:}{18}
-\contentsline {section}{\numberline {2.5}Magie}{18}
-\contentsline {section}{\numberline {2.6}Religion}{18}
-\contentsline {section}{\numberline {2.7}\IeC {\'e}quipements}{18}
-\contentsline {subsection}{\numberline {2.7.1}Armes de M\IeC {\^e}l\IeC {\'e}e}{18}
-\contentsline {subsubsection}{assembler une arme d\IeC {\textquoteright }hast}{18}
-\contentsline {subsubsection}{Couteau}{18}
-\contentsline {subsubsection}{Dague}{18}
-\contentsline {subsubsection}{Ep\IeC {\'e}e}{18}
-\contentsline {subsubsection}{Sabre}{18}
-\contentsline {subsubsection}{Hache}{18}
-\contentsline {subsubsection}{Marteau de guerre}{18}
-\contentsline {subsubsection}{Manche d\IeC {\textquoteright }arme d\IeC {\textquoteright }hast}{19}
-\contentsline {subsubsection}{Masse}{19}
-\contentsline {subsubsection}{Lance}{19}
-\contentsline {subsubsection}{Pic}{19}
-\contentsline {subsubsection}{Bouclier}{19}
-\contentsline {subsubsection}{Armes improvis\IeC {\'e}es}{19}
-\contentsline {subsection}{\numberline {2.7.2}Armes \IeC {\`a} distance}{19}
-\contentsline {subsection}{\numberline {2.7.3}R\IeC {\`e}gles d\IeC {\textquoteright }armures}{19}
-\contentsline {subsubsection}{Les valeurs d'armure}{19}
+\contentsline {subsection}{\numberline {2.5.3}Le combat \IeC {\`a} distance:}{18}
+\contentsline {subsection}{\numberline {2.5.4}Infliger des d\IeC {\'e}g\IeC {\^a}ts:}{19}
+\contentsline {section}{\numberline {2.6}Magie}{19}
+\contentsline {section}{\numberline {2.7}Religion}{19}
+\contentsline {section}{\numberline {2.8}\IeC {\'e}quipements}{19}
+\contentsline {subsection}{\numberline {2.8.1}Armes de M\IeC {\^e}l\IeC {\'e}e}{19}
+\contentsline {subsubsection}{assembler une arme d\IeC {\textquoteright }hast}{19}
+\contentsline {subsubsection}{Couteau}{19}
+\contentsline {subsubsection}{Dague}{19}
+\contentsline {subsubsection}{Ep\IeC {\'e}e}{19}
+\contentsline {subsubsection}{Sabre}{20}
+\contentsline {subsubsection}{Hache}{20}
+\contentsline {subsubsection}{Marteau de guerre}{20}
+\contentsline {subsubsection}{Manche d\IeC {\textquoteright }arme d\IeC {\textquoteright }hast}{20}
+\contentsline {subsubsection}{Masse}{20}
+\contentsline {subsubsection}{Lance}{20}
+\contentsline {subsubsection}{Pic}{20}
+\contentsline {subsubsection}{Bouclier}{20}
+\contentsline {subsubsection}{Armes improvis\IeC {\'e}es}{20}
+\contentsline {subsection}{\numberline {2.8.2}Armes \IeC {\`a} distance}{20}
+\contentsline {subsection}{\numberline {2.8.3}R\IeC {\`e}gles d\IeC {\textquoteright }armures}{20}
+\contentsline {subsubsection}{Les valeurs d'armure}{20}
 \contentsline {subsubsection}{Cumuler les \IeC {\'e}paisseurs}{20}
-\contentsline {subsection}{\numberline {2.7.4}Plastrons}{20}
-\contentsline {subsubsection}{Cotte de maille*}{20}
-\contentsline {subsubsection}{Gambison*}{20}
-\contentsline {subsubsection}{Cotte de plates}{20}
-\contentsline {subsubsection}{lamellaire (avec spalli\IeC {\`e}res, avec tassettes)}{20}
-\contentsline {subsubsection}{Ecailles}{20}
-\contentsline {subsection}{\numberline {2.7.5}Gantelets}{20}
-\contentsline {subsubsection}{Maille*}{20}
-\contentsline {subsubsection}{Gambison*}{20}
-\contentsline {subsubsection}{Plates}{20}
-\contentsline {subsubsection}{Lamellaires}{20}
-\contentsline {subsubsection}{Ecailles}{20}
-\contentsline {subsection}{\numberline {2.7.6}Chausses}{20}
-\contentsline {subsubsection}{Maille (et chausses compl\IeC {\`e}tes *)}{20}
+\contentsline {subsection}{\numberline {2.8.4}Plastrons}{21}
+\contentsline {subsubsection}{Cotte de maille*}{21}
 \contentsline {subsubsection}{Gambison*}{21}
-\contentsline {subsubsection}{Lamellaire}{21}
+\contentsline {subsubsection}{Cotte de plates}{21}
+\contentsline {subsubsection}{lamellaire (avec spalli\IeC {\`e}res, avec tassettes)}{21}
 \contentsline {subsubsection}{Ecailles}{21}
-\contentsline {subsubsection}{Bottes \IeC {\'e}paisses}{21}
-\contentsline {subsection}{\numberline {2.7.7}Casques}{21}
-\contentsline {subsubsection}{Coiffe de maille (et ventail)}{21}
-\contentsline {subsubsection}{Casque lamellaire (et casque lamellaire complet*)}{21}
-\contentsline {subsubsection}{Casque conique (et nasal, lunettes, ventail, visi\IeC {\`e}re compl\IeC {\`e}te)}{21}
-\contentsline {subsubsection}{Casque int\IeC {\'e}gral, ou grand heaume*}{21}
-\contentsline {subsubsection}{Cerveli\IeC {\`e}re}{21}
-\contentsline {subsubsection}{Chapel de fer}{21}
-\contentsline {subsection}{\numberline {2.7.8}Autres \IeC {\'e}quipements}{21}
-\contentsline {subsection}{\numberline {2.7.9}Services}{21}
+\contentsline {subsection}{\numberline {2.8.5}Gantelets}{21}
+\contentsline {subsubsection}{Maille*}{21}
+\contentsline {subsubsection}{Gambison*}{21}
+\contentsline {subsubsection}{Plates}{21}
+\contentsline {subsubsection}{Lamellaires}{21}
+\contentsline {subsubsection}{Ecailles}{21}
+\contentsline {subsection}{\numberline {2.8.6}Chausses}{21}
+\contentsline {subsubsection}{Maille (et chausses compl\IeC {\`e}tes *)}{21}
+\contentsline {subsubsection}{Gambison*}{22}
+\contentsline {subsubsection}{Lamellaire}{22}
+\contentsline {subsubsection}{Ecailles}{22}
+\contentsline {subsubsection}{Bottes \IeC {\'e}paisses}{22}
+\contentsline {subsection}{\numberline {2.8.7}Casques}{22}
+\contentsline {subsubsection}{Coiffe de maille (et ventail)}{22}
+\contentsline {subsubsection}{Casque lamellaire (et casque lamellaire complet*)}{22}
+\contentsline {subsubsection}{Casque conique (et nasal, lunettes, ventail, visi\IeC {\`e}re compl\IeC {\`e}te)}{22}
+\contentsline {subsubsection}{Casque int\IeC {\'e}gral, ou grand heaume*}{22}
+\contentsline {subsubsection}{Cerveli\IeC {\`e}re}{22}
+\contentsline {subsubsection}{Chapel de fer}{22}
+\contentsline {subsection}{\numberline {2.8.8}Autres \IeC {\'e}quipements}{22}
+\contentsline {subsection}{\numberline {2.8.9}Services}{22}
 \contentsline {chapter}{\numberline {3}Cr\IeC {\'e}ation de personnages}{23}
 \contentsline {section}{\numberline {3.1}R\IeC {\'e}sum\IeC {\'e}}{23}
 \contentsline {section}{\numberline {3.2}Packages}{23}

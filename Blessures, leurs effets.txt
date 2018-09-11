@@ -41,7 +41,7 @@ Résistance d'une zone : si l'armure n'a pas bloqué le coup, chaque zone a un seu
 léger : 1
 grave : 2
 dévastatrice : 4
-
+mortel : 6
 La tête a +2 aux seuils, le torse +1, en rason de la structure de ces parties
 
 Ces seuils varient en fonction de la créature. Ceux indiqués ici ne concernent que les humains, et éventuelles espèces équivalentes.

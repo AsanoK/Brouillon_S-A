@@ -7,3 +7,4 @@ Les voix à l'assemblée peuvent être héritées (premier fils par défaut), ou obten
 
 Le statut social est lié à deux éléments : la taille d'une famille, et la capacité de celle-ci à se défendre. En effet, la dureté de la colonisation fait que les besoins militaires et de survie sont très appréciés : une famille nombreuse peut fournir nombre d'hommes au combat, et c'est d'autant mieux s'ils savent déjà se battre et survivre. D'autant que la qualité de leur équipement dépend de la richesse de la famille. Cela est également très lié à une communauté spécifique : les itinérants, s'ils peuvent être respectés pour leurs capacités, seront souvent moins bien vus que des locaux bien établis. Par ailleurs, un étranger sera souvent vu avec une certaine méfiance, tant qu'il n'aura pas fait ses preuves du moins.
 
+

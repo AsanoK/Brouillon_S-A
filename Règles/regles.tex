@@ -228,7 +228,8 @@ S’occuper d’une blessure récente de manière à stabiliser le blessé. Néc
 \subsubsection{Chirurgie }
 Extraire une flèche, ressouder correctement un os, mais aussi extraire une dent, trépaner un patient amputer un membre… Nécessite des outils barbares pour être utilisé (un couteau peut parfois suffire, mais n’est pas forcément adapté à la tâche). Oui, réaliser une amputation avec pour seul outil une hache est compliqué (il faut au moins un couteau en plus…).
 \subsubsection{Herboristerie}
-Connaître les utilités et les dangers des plantes, mais aussi les préparer comme onguent, remède ou cataplasme.
+Connaître les utilités et les dangers des plantes, savoir où les récolter, quand les récolter, comment les récolter, ainsi que réaliser certains "remèdes de grand-mères".
+
 \subsection{Savoirs}
 \subsubsection{Connaissances()*}
 Ensemble des savoirs détaillés sur un sujet, typiquement appris auprès d’un maître ou d’une université. Les domaines sont aussi nombreux que divers : arithmétique, astrologie, astronomie, théurgie, droit, zoologie, théologie….
@@ -239,6 +240,8 @@ Organiser, planifier, que ce soit dans un but mercantile ou par exemple de la lo
 \subsubsection{Langue()}
 Chaque domaine de la compétence langue est une langue différente de l’univers de jeu, que le personnage peut comprendre.
 Un test de cette compétence n’est pas demandé dans la plupart des cas, mais peut être demandé pour comprendre un accent particulièrement prononcé, ou un discours complexe.
+\subsubsection{Médecine}
+Savoir identifier une maladie, connaissances en anatomie. Permet d'établir un diagnostic, qui permettrait potentiellement de mieux orienter un traitement. Le diagnostic réalisé grâce à cette compétence permet potentiellement de ne pas se limiter aux symptômes, mais peut-être bien de trouver la source du mal qui affecte le patient (si les connaissances médicales du lieu et de l'époque le permettent).
 \subsection{Magie}
 \subsubsection{Occultisme()*}
 La basse magie, sorcellerie… bref, l’art des sorciers de village. Décrit plus en détail dans la section sur la magie.
@@ -314,11 +317,42 @@ Suivant la source, un personnage peut subir enflammé(n). A chaque tour, un pers
 A titre d’exemples, un feu de camp dans lequel on marcherait infligerait enflammé (1), là ou du feu grégeois serait plus proche d’enflammé(4).
 Un personnage peut réduire les flammes avec un test de HAB+VIT (on diminue les dégâts du nombre de réussite). Si la valeur atteint 0, les flammes ont été éteinte avec succès (il est aussi possible d’éteindre les flammes sur quelqu’un d’autre).
 \section{Blessures, soins et guérison}
-%TODO
+\subsection{Blessures}
+On distingue, suivant leur degré de gravité, 5 nivaux de blessures:
+\begin{itemize}
+\item \'Egratignure : blessure bénigne, sans aucune conséquence directe. Peut éventuellement laisser une cicatrice (suivant les premiers secours apportés). Attention toutefois, dans certains milieux, c'est l'infection qui guette.
+\item blessure légère : une blessure sans grande conséquence, mais qui se révèle handicapante, souvent par la douleur qu'elle cause. Le blessé subit un malus de -2 à tous ses tests réalisés avec cette zone si c'est un membre. Le torse et le ventre infligent quand à eux un malus de -1 à tous les tests. Une blessure même légère à la tête peut se révéler problématique : cicatrice hideuse, traumatisme crânien léger (qui peut entrainer perte de conscience jusqu'à quelques heures après le choc, mais ne devrait pas avoir de séquelles sur le long terme),dents déchaussées, perte d'un bout d'oreille ou de nez...
+\item Blessure grave : Les premières blessures à réellement menacer la survie du personnage : fracture, organe touché, muscle lourdement endommagé.... Une telle blessure fait risquer une hémorragie quelque soit la zone touchée. Les membres ne sont plus utilisables, le ventre risque fort de s'infecter en cas de blessure ouverte, ou des dommages internes graves en cas de blessure interne (problèmes de digestion au mieux, foie et reins au pire). Le torse implique un poumon perforé ou une côte brisée (ou les deux), qui inflige un malus de -4 à toutes les actions après la fin du tour. Une blessure à la tête de ce type est très grave : traumatisme crânien moyen (perte de conscience quasiment sûre, avec potentielles séquelles mineures), oreille détruite, œil atteint (peut-être sauvable par chirurgie), mâchoire démise, dents dévastées....
+\item blessure dévastatrice : danger vital pour le blessé : fracture ouverte, plaie très importante, organe gravement touché (non-fonctionnel). Potentielles séquelles à log terme pour le personnage, en particulier sur un coup à la tête. Tout les coups de ce niveau cause une hémorragie. Un membre n'est pas utilisable, une blessure au torse implique de gros dégâts au niveau du poumon, ce qui empêche toute action violente après la fin du tour. Une blessure au ventre implique un organe non-fonctionnel : intestin perforé (la gangrène guette alors en quelques heures), rein détruit, foie éclaté.... Les coups à la tête voient un œil perdu, une gorge tranchée (hémorragie grave), ou un traumatisme crânien majeur (perte de connaissance quasi-immédiate, gros risque de séquelles, y compris sur le long terme).
+\item blessure mortelle Le personnage n'a aucune chance de survivre à ce coup : crâne enfoncé, blessure au cœur, artère tranchée....
+\end{itemize}
+
+Un coup inflige une blessure si après les éventuelles réductions d'armure, il dépasse le seuil associé à ce niveau de blessure. On peut se référer à la talbe \ref{tableSeuilsBlessures}
+
+\begin{table}
+\caption{Seuils de blessure}
+\label{tableSeuilsBlessures}
+\begin{tabular}{cc}
+\textbf{Seuil} & \textbf{valeur} \\
+   égratignure & pas de seuil \\
+   blessure légère & 1 \\
+   blessure grave & 2 \\
+   dévastatrice & 4 \\
+   mortelle & 6 \\
+\end{tabular}
+\end{table}
+
+Pour les blessures à la tête, on ajoute 2 à la valeur de seuil. Pour les blessures au torse, on ajoute 1.
+
+\subsection{Maladies, infections et poisons}
+\subsection{Dures conséquences}
+\section{Stress et folie}
 \section{Relations sociales}
 \subsection{Contacts}
 Les contacts d’un personnages sont des personnages qui pourraient accepter de lui accorder des faveurs en cas de besoin.
+
 Chaque contact dispose d’un score de service, représentant sa volonté d’aider le personnage.
+
 Pour faire appel à cette aide, un personnage doit réaliser un test de service+SOC, dont la difficulté est déterminée par la table \ref{tableFaveurs}.
 
 \begin{table}
@@ -371,8 +405,11 @@ Au sein d’une communauté dans laquelle ils viennent d’arriver, un groupe de
 Dans un combat, les participants agissent par ordre d’initiative décroissante. L’initiative étant calculée avec 1d10+VIT.
 \subsection{Combat en mêlée:}
 Pour réaliser une attaque en mêlée, on effectue un test en opposition entre la VIT+arme de l’attaquant et la VIT+défense du défenseur.
+
     En cas de réussite, l’attaque inflige des dégâts.
+    
     En cas d’échec, le défenseur peut décider d’effectuer une contre-attaque (dans la limite d’une par tour). Celle-ci ne peut pas déclencher de contre-attaque en retour.
+    
     En cas d’égalité, l’attaquant calcule les dégâts, et le défenseur peut contre-attaquer simultanément.
     
     Il n’est possible d’attaquer en mêlée que si la cible se trouve à bonne distance. Chaque arme est évidemment plus facile à manier à certaines distances. S\&A distingue 4 distances de combat:
