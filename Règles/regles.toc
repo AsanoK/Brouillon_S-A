@@ -84,18 +84,20 @@
 \contentsline {section}{\numberline {2.2}Blessures, soins et gu\IeC {\'e}rison}{16}
 \contentsline {subsection}{\numberline {2.2.1}Blessures}{16}
 \contentsline {subsection}{\numberline {2.2.2}Maladies, infections et poisons}{17}
+\contentsline {subsection}{\numberline {2.2.3}S\IeC {\'e}quelles des blessures}{17}
+\contentsline {subsection}{\numberline {2.2.4}Prodiguer des soins}{17}
 \contentsline {section}{\numberline {2.3}Stress et folie}{17}
 \contentsline {section}{\numberline {2.4}Relations sociales}{17}
 \contentsline {subsection}{\numberline {2.4.1}Contacts}{17}
 \contentsline {subsection}{\numberline {2.4.2}Renomm\IeC {\'e}e}{17}
-\contentsline {section}{\numberline {2.5}Combats}{17}
-\contentsline {subsection}{\numberline {2.5.1}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s:}{17}
+\contentsline {section}{\numberline {2.5}Combats}{18}
+\contentsline {subsection}{\numberline {2.5.1}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s:}{18}
 \contentsline {subsection}{\numberline {2.5.2}Combat en m\IeC {\^e}l\IeC {\'e}e:}{18}
 \contentsline {subsubsection}{Enchainer les parades}{18}
 \contentsline {subsubsection}{Le combat \IeC {\`a} mains nues}{18}
 \contentsline {subsubsection}{\IeC {\^e}tre sonn\IeC {\'e}}{18}
-\contentsline {subsubsection}{Modificateurs circonstanciels}{18}
-\contentsline {subsection}{\numberline {2.5.3}Le combat \IeC {\`a} distance:}{18}
+\contentsline {subsubsection}{Modificateurs circonstanciels}{19}
+\contentsline {subsection}{\numberline {2.5.3}Le combat \IeC {\`a} distance:}{19}
 \contentsline {subsection}{\numberline {2.5.4}Infliger des d\IeC {\'e}g\IeC {\^a}ts:}{19}
 \contentsline {section}{\numberline {2.6}Magie}{19}
 \contentsline {section}{\numberline {2.7}Religion}{19}
@@ -105,9 +107,9 @@
 \contentsline {subsubsection}{Couteau}{19}
 \contentsline {subsubsection}{Dague}{19}
 \contentsline {subsubsection}{Ep\IeC {\'e}e}{19}
-\contentsline {subsubsection}{Sabre}{20}
-\contentsline {subsubsection}{Hache}{20}
-\contentsline {subsubsection}{Marteau de guerre}{20}
+\contentsline {subsubsection}{Sabre}{19}
+\contentsline {subsubsection}{Hache}{19}
+\contentsline {subsubsection}{Marteau de guerre}{19}
 \contentsline {subsubsection}{Manche d\IeC {\textquoteright }arme d\IeC {\textquoteright }hast}{20}
 \contentsline {subsubsection}{Masse}{20}
 \contentsline {subsubsection}{Lance}{20}
@@ -117,7 +119,7 @@
 \contentsline {subsection}{\numberline {2.8.2}Armes \IeC {\`a} distance}{20}
 \contentsline {subsection}{\numberline {2.8.3}R\IeC {\`e}gles d\IeC {\textquoteright }armures}{20}
 \contentsline {subsubsection}{Les valeurs d'armure}{20}
-\contentsline {subsubsection}{Cumuler les \IeC {\'e}paisseurs}{20}
+\contentsline {subsubsection}{Cumuler les \IeC {\'e}paisseurs}{21}
 \contentsline {subsection}{\numberline {2.8.4}Plastrons}{21}
 \contentsline {subsubsection}{Cotte de maille*}{21}
 \contentsline {subsubsection}{Gambison*}{21}

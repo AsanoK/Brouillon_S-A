@@ -349,22 +349,15 @@ Un coup inflige une blessure si après les éventuelles réductions d'armure, il
 Pour les blessures à la tête, on ajoute 2 à la valeur de seuil. Pour les blessures au torse, on ajoute 1.
 
 \subsection{Maladies, infections et poisons}
-%Chaque maladie : un vecteur, une difficulté pour résister à l'infection, puis les règles détaillées de chacune. La difficulté d'une même maladie peut varier suivant la souche (décision du MJ, ne devrait pas changer de plus de 1).
-%Résistance réalisée avec MA+CHA.
-Une maladie, une infection ou un poison se définissent de la même façon dans S\& A. Chacune se définissent en termes mécaniques par un vecteur, une contagion, un temps d'incubation et des effets.
+Chaque maladie : un vecteur, une difficulté pour résister à l'infection, puis les règles détaillées de chacune. La difficulté d'une même maladie peut varier suivant la souche (décision du MJ, ne devrait pas changer de plus de 1).
+Résistance réalisée avec MA+CHA.
+Dans S\& A, les maladies, infections et poisons fonctionnent selon les mêmes règles.
+Chacune se définit par un vecteur, une difficulté pour y résister, et des effets.
 
-Le vecteur est le moyen de tomber malade (ou d'être infecté, ou de subir les effets d'un poison). Pour le paludisme par exemple, cela serait la piqûre de moustiques infectés. Le MJ peut décider de la probabilité d'un personnage d'être mis en contact avec la maladie avec un test de chance, ou par décision.
+Le vecteur, c'est le moyen d'attraper la maladie, d'être infecté ou de subir les effets d'un poison. Le fait d'être piqué par un moustique contaminé cause un risque d'infection par le paludisme par exemple. La probabilité d'infection est en définitive laissée à l'appréciation du MJ (un test de chance peut-être?).
 
-La contagion, c'est la difficulté du test visant à résister à l'infection initiale. On réalise ce test avec MA+CHA. Pour une même maladie, il peut exister différentes souches, qui auront des contagions légèrement différentes (plus ou moins 1 point).
-%pas de mention du fait que l'exposition régulière à une souche augmente la résistance
+La 
 
-Le temps d'incubation, c'est le temps nécessaire avant de subir les premiers effets.
-
-Les effets, c'est l'ensemble des conséquences de la maladie qui se déclenchent après le temps d'incubation.
-
-\subsubsection{Exemples de maladie}
-\paragraph{La grippe (difficulté 2)} :incubation 2 jours. Vecteur : présence auprès d'une personne infectée (contagieuse pendant le temps d'incubation?). premier jour : -1 à touts les tests (douleurs musculaires). Les jours suivants : 3 niveaux de fatigue automatiques. Dure par défaut 5 jours - le nombre de réussites au test initial.
-\paragraph{La gangrène (difficulté 4):} vecteur : une blessure non cicatrisée qui s'infecte. Chaque jour, un point de blessure cumulatif est infligé. A partir du début, malus de -2 à tous les tests avec le membre infecté (à tout si c'est la tête ou le torse). Un test de chirurgie, de médecine ou d'apothicaire difficile (4) peut permettre de stopper l'infection à ce stade (attention, la blessure pourrait à nouveau s'infecter, un seul test de chaque type autorisé). Une fois qu'une blessure légère est infligée, le membre devient invalide et le patient subit de grosses fièvres (2 niveaux de fatigue). A ce moment, il faut un test de chirugie difficile(4) pour amputer le membre ou très difficile (5) pour ne pas tout couper. Attention, une amputation est une blessure grave et présente des risques d'hémorragie.
 \subsection{Séquelles des blessures}
 
 \subsection{Prodiguer des soins}
@@ -483,7 +476,6 @@ La table \ref{tableModifCombats} liste une partie des modificateurs classiques s
 \subsection{Le combat à distance:}
 Le combat à distance se gère par deux tests simples :
 En premier lieu l’attaquant réalise un test d’arme+HAB. En cas d’échec, le projectile ne touche pas sa cible. La difficulté du test est indiquée dans le tableau suivant :
-
 
 %TODO : tableau difficulté de tir
 

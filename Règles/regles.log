@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.9)  10 SEP 2018 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.11)  11 SEP 2018 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **regles.tex
 (./regles.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 9 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
@@ -524,60 +524,62 @@ Underfull \hbox (badness 4846) in paragraph at lines 273--274
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-Underfull \hbox (badness 1210) in paragraph at lines 323--324
+Underfull \hbox (badness 1210) in paragraph at lines 327--328
 \T1/cmr/m/n/10 con-séquence di-recte. Peut éventuelle-ment
  []
 
 [16]
-Underfull \hbox (badness 3209) in paragraph at lines 330--331
+Underfull \hbox (badness 3209) in paragraph at lines 334--335
 []\T1/cmr/m/n/10 Un coup in-flige une blessure si après les
  []
 
-
-Underfull \hbox (badness 1314) in paragraph at lines 401--405
+[17]
+Underfull \hbox (badness 1314) in paragraph at lines 415--416
 \T1/cmr/m/n/10 un test en op-po-si-tion en-tre la VIT+arme de
  []
 
-[17]
-Underfull \hbox (badness 2310) in paragraph at lines 418--422
+
+Underfull \hbox (badness 2932) in paragraph at lines 419--420
+[]\T1/cmr/m/n/10 En cas d'échec, le défenseur peut dé-cider
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 435--439
 \T1/cmr/m/n/10 posé de Corps à corps + VIT, et de con-
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 418--422
+Underfull \hbox (badness 1824) in paragraph at lines 435--439
 \T1/cmr/m/n/10 tin-uer comme s'il s'agissait d'une at-taque de
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 418--422
+Underfull \hbox (badness 1221) in paragraph at lines 435--439
 \T1/cmr/m/n/10 mêlée nor-male (les valeurs de dégâts des po-
  []
 
 
-Overfull \hbox (134.89032pt too wide) in paragraph at lines 441--450
+Overfull \hbox (134.89032pt too wide) in paragraph at lines 458--467
  [] 
  []
 
 [18]
-Underfull \vbox (badness 2326) has occurred while \output is active []
-
- [19]
-Underfull \hbox (badness 1603) in paragraph at lines 505--506
+Underfull \hbox (badness 1603) in paragraph at lines 522--523
 \T1/cmr/m/n/10 Comme in-diqué précédem-ment, il ex-iste deux
  []
 
-
-Underfull \hbox (badness 2460) in paragraph at lines 523--525
+[19]
+Underfull \hbox (badness 2460) in paragraph at lines 540--542
 \T1/cmr/m/n/10 Il est pos-si-ble de porter plusieurs épais-seurs
  []
 
 [20] [21]
-Underfull \hbox (badness 1490) in paragraph at lines 566--567
+Underfull \hbox (badness 1490) in paragraph at lines 583--584
 \T1/cmr/m/n/10 Utilisation de la struc-ture lamel-laire (lamelles
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 566--567
+Underfull \hbox (badness 3514) in paragraph at lines 583--584
 \T1/cmr/m/n/10 rel-a-tive-ment basique, mais plutôt ef-fi-cace et
  []
 
@@ -586,7 +588,7 @@ Chapter 3.
 [23
 
 ]
-Underfull \hbox (badness 4217) in paragraph at lines 626--628
+Underfull \hbox (badness 4217) in paragraph at lines 643--645
 \T1/cmr/m/n/10 L'enfance du per-son-nage n'est pas vrai-ment
  []
 
@@ -595,27 +597,27 @@ Underfull \vbox (badness 1112) has occurred while \output is active []
 
  [24]
 [25]
-Underfull \hbox (badness 1038) in paragraph at lines 661--663
+Underfull \hbox (badness 1038) in paragraph at lines 678--680
 \T1/cmr/m/n/10 Le per-son-nage a étudié la magie auprès d'un
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 676--678
+Underfull \hbox (badness 1377) in paragraph at lines 693--695
 \T1/cmr/m/n/10 Le per-son-nage a passé l'adolescence avec une
  []
 
 [26]
-Underfull \hbox (badness 1635) in paragraph at lines 711--713
+Underfull \hbox (badness 1635) in paragraph at lines 728--730
 \T1/cmr/m/n/10 Le per-son-nage dirige des ac-tiv-ités crim-inelles,
  []
 
 [27]
-Underfull \hbox (badness 1168) in paragraph at lines 730--732
+Underfull \hbox (badness 1168) in paragraph at lines 747--749
 \T1/cmr/m/n/10 tromperie. cer-tains l'ont bien com-pris et de
  []
 
 [28] [29]
-Underfull \hbox (badness 1152) in paragraph at lines 760--762
+Underfull \hbox (badness 1152) in paragraph at lines 777--779
 \T1/cmr/m/n/10 Chaque re-li-gion a ses prêtres, qui in-ter-cè-dent
  []
 
@@ -623,17 +625,17 @@ Underfull \hbox (badness 1152) in paragraph at lines 760--762
 Underfull \vbox (badness 1019) has occurred while \output is active []
 
  [30]
-Underfull \hbox (badness 7116) in paragraph at lines 804--805
+Underfull \hbox (badness 7116) in paragraph at lines 821--822
 \T1/cmr/m/n/10 Le per-son-nage sait lire et écrire, quoique
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 810--811
+Underfull \hbox (badness 2573) in paragraph at lines 827--828
 \T1/cmr/m/n/10 Le per-son-nage fait par-tie d'une or-gan-i-sa-tion,
  []
 
 [31]
-Underfull \hbox (badness 1803) in paragraph at lines 822--823
+Underfull \hbox (badness 1803) in paragraph at lines 839--840
 \T1/cmr/m/n/10 Le per-son-nage est recher-ché par une fac-tion,
  []
 
@@ -653,27 +655,31 @@ Chapter 4.
 \tf@toc=\write3
 \openout3 = `regles.toc'.
 
- [39] (./regles.aux) ) 
+ [39] (./regles.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1742 strings out of 494805
- 18001 string characters out of 6178001
- 74386 words of memory out of 5000000
- 5070 multiletter control sequences out of 15000+600000
+ 1742 strings out of 494880
+ 18001 string characters out of 6179601
+ 74141 words of memory out of 5000000
+ 5061 multiletter control sequences out of 15000+600000
  19289 words of font info for 52 fonts, out of 8000000 for 9000
- 81 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  27i,8n,24p,896b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/jk
-nappen/ec/ecbx1200.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecbx1440.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecbx2074.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/
-ljfour/jknappen/ec/ecsl1000.600pk> </home/antoine/.texlive2017/texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/antoine/.texlive2017/texmf-var/fon
-ts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/antoine/.texlive2017/texmf-var/
-fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/antoine/.texlive2017/texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/antoine/.texlive2017/texm
-f-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on regles.pdf (39 pages, 212116 bytes).
+ </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.6
+00pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx144
+0.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx
+2074.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+csl1000.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecbx1000.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecbx2488.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecrm1000.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1200.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb>
+Output written on regles.pdf (39 pages, 212545 bytes).
 PDF statistics:
  545 PDF objects out of 1000 (max. 8388607)
  128 compressed objects within 2 object streams
