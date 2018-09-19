@@ -331,7 +331,7 @@ On distingue, suivant leur degré de gravité, 5 nivaux de blessures:
 \item blessure mortelle Le personnage n'a aucune chance de survivre à ce coup : crâne enfoncé, blessure au cœur, artère tranchée....
 \end{itemize}
 
-Un coup inflige une blessure si après les éventuelles réductions d'armure, il dépasse le seuil associé à ce niveau de blessure. On peut se référer à la talbe \ref{tableSeuilsBlessures}
+Un coup inflige une blessure si après les éventuelles réductions d'armure, il dépasse le seuil associé à ce niveau de blessure. On peut se référer à la table \ref{tableSeuilsBlessures}
 
 \begin{table}
 \caption{Seuils de blessure}
@@ -347,7 +347,12 @@ Un coup inflige une blessure si après les éventuelles réductions d'armure, il
 \end{table}
 
 Pour les blessures à la tête, on ajoute 2 à la valeur de seuil. Pour les blessures au torse, on ajoute 1.
+\subsubsection{Hémorragie}
+Une hémorragie commence à un score dépendant de la blessure ou maladie l'ayant causé, et augmente celui-ci d'un point toutes les minutes. Quand la valeur arrive à MA+CON, le personnage tombe inconscient. A deux fois cette valeur, il est mort.
+\subsubsection{\^Etre sonné}
+Un personnage peut être sonné de plusieurs façons, mais le plus souvent suite à un choc violent à la tête, ou une chute rude sur le sol (par exemple à la suite d'une projection au corps à corps.
 
+Un personnage peut tenter de résister à cela via un test de CON+MA, si il échoue, il est considéré comme sonné, et subit un malus de -3 à toutes ses actions.
 \subsection{Maladies, infections et poisons}
 %Chaque maladie : un vecteur, une difficulté pour résister à l'infection, puis les règles détaillées de chacune. La difficulté d'une même maladie peut varier suivant la souche (décision du MJ, ne devrait pas changer de plus de 1).
 %Résistance réalisée avec MA+CHA.
@@ -364,11 +369,67 @@ Les effets, c'est l'ensemble des conséquences de la maladie qui se déclenchent
 
 \subsubsection{Exemples de maladie}
 \paragraph{La grippe (difficulté 2)} :incubation 2 jours. Vecteur : présence auprès d'une personne infectée (contagieuse pendant le temps d'incubation?). premier jour : -1 à touts les tests (douleurs musculaires). Les jours suivants : 3 niveaux de fatigue automatiques. Dure par défaut 5 jours - le nombre de réussites au test initial.
-\paragraph{La gangrène (difficulté 4):} vecteur : une blessure non cicatrisée qui s'infecte. Chaque jour, un point de blessure cumulatif est infligé. A partir du début, malus de -2 à tous les tests avec le membre infecté (à tout si c'est la tête ou le torse). Un test de chirurgie, de médecine ou d'apothicaire difficile (4) peut permettre de stopper l'infection à ce stade (attention, la blessure pourrait à nouveau s'infecter, un seul test de chaque type autorisé). Une fois qu'une blessure légère est infligée, le membre devient invalide et le patient subit de grosses fièvres (2 niveaux de fatigue). A ce moment, il faut un test de chirugie difficile(4) pour amputer le membre ou très difficile (5) pour ne pas tout couper. Attention, une amputation est une blessure grave et présente des risques d'hémorragie.
-\subsection{Séquelles des blessures}
-
+\paragraph{La gangrène (difficulté 4):} vecteur : une blessure non cicatrisée qui s'infecte. Chaque jour, un point de blessure cumulatif est infligé. A partir du début, malus de -2 à tous les tests avec le membre infecté (à tout si c'est la tête ou le torse). Un test de chirurgie, de médecine ou d'apothicaire difficile (4) peut permettre de stopper l'infection à ce stade (attention, la blessure pourrait à nouveau s'infecter, un seul test de chaque type autorisé). Une fois qu'une blessure légère est infligée, le membre devient invalide et le patient subit de grosses fièvres (2 niveaux de fatigue). A ce moment, il faut un test de chirurgie difficile(4) pour amputer le membre ou très difficile (5) pour ne pas tout couper. Attention, une amputation est une blessure grave et présente des risques d'hémorragie.
+%\subsection{Séquelles des blessures}
+%Pertinence ?
 \subsection{Prodiguer des soins}
+Une fois des blessures subies, un personnage peut espérer récupérer de celles-ci. Pour cela, il faut du temps, et idéalement un suivi médical.
+
+En premier lieu, la récupération naturelle, qui sert de base pour le calcul pour toute forme de soins, correspond à ce qui se passe si la blessure évolue naturellement dans de bonnes conditions. Elle part du principe que la blessure est saine et peut cicatriser. Les temps peuvent être trouvés dans le tableau \ref{recuperationNaturelle}.
+\begin{table*}
+\caption{Récupération naturelle}
+\label{recuperationNaturelle}
+\begin{center}
+\begin{tabular}{cc}
+\textbf{gravité de la blessure}&\textbf{durée de récupération}\\
+égratignure & 2 jours\\
+blessure légère& 1 semaine\\
+blessure grave& 2 semaines\\
+blessure catastrophique& 1 mois\\
+blessure mortelle & pas de récupération
+\end{tabular}
+\end{center}
+\end{table*}
+
+Les malus infligés par la blessure diminuent au cours de la récupération.
+
+Par ailleurs, les différentes compétences de médecine peuvent être utilisées pour influencer le temps de récupération 
+\begin{itemize}
+\item premiers secours : un test réussi permet de limiter les risques d'infection, et de déclencher immédiatement après le test le processus de récupération naturelle.
+\item herboristerie : un test permet d'améliorer la récupération naturelle, ou de limiter les malus infligés au cours de la récupération. Bonus de récupération : 20%
+\item chirurgie : un test réussi permet de soigner certaines blessures et leur permettre de commencer à récupérer. Sur une blessure normale, cela permet également de réduire légèrement la durée de soin. Type de blessure nécessitant de la chirurgie : fractures déplacées, flèches, blessure interne, infection interne (appendicite par ex). gain max: 10%
+\item Médecine : permet de limiter les risques d'infection, et de gagner un peu de temps de récupération (10%)
+\end{itemize}
+
 \section{Stress et folie}
+Face à un évènement traumatisant (blessure grave, scène horrible objectivement ou subjectivement, tuer quelqu'un), le personnage doit réaliser un test de CON+CHA, avec un seuil dépendant de la gravité du traumatisme. Quelques exemples de difficultés sont indiquées dans la table suivante %TODO : exemples de trauma
+
+Si le test est réussi, l'évènement n'a aucune conséquence sur la santé mentale du personnage. Si le test est un échec, on ajoute au personnage un nombre de points de stress égal à la différence entre la difficulté et son nombre de réussite.
+
+On compare ensuite le nombre de points de stress avec les seuils de stress du personnage. Si un seuil est battu, le personnage subit les effets de cet état de stress. Les seuils de stress sont calculés grâce à la table \ref{TableauSeuilsStress}.
+
+%TODO réfléchir à améliorer, notamment les trauma graves
+\begin{itemize}
+\item stress léger : pas d'effets permanent, problèmes de concentration, vomissement...
+\item stress important : difficulté à dormir (potentiellement sur le long terme), légers changements de personnalité : agressivité, panique, le personnage est en train de craquer.
+\item traumatisme : effets durables sur la personnalité, PTSD, séquelles psychologiques.
+\end{itemize}
+
+Il est possible de baisser le niveau de stress avec du temps de repos, mais aussi des moments de détente : musique, vices, tout ce qui peut calmer le personnage. La religion peut également être une aide ici.
+Si c'est un évènement et non le temps qui est utilisé, le personnage peut réaliser un test de CON et perdre autant de points de stress que son nombre de réussite.
+\begin{table}
+\label{TableauSeuilsStress}
+\caption{Calcul des seuils de stress}
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Seuil} & \textbf{Valeur} \\
+seuil léger & CON \\
+seuil important & CON*1.5 \\
+seuil trauma & CON*2 \\
+\end{tabular}
+\end{center}
+\end{table}
+
 \section{Relations sociales}
 \subsection{Contacts}
 Les contacts d’un personnages sont des personnages qui pourraient accepter de lui accorder des faveurs en cas de besoin.
@@ -482,12 +543,23 @@ La table \ref{tableModifCombats} liste une partie des modificateurs classiques s
 \end{table*}
 \subsection{Le combat à distance:}
 Le combat à distance se gère par deux tests simples :
-En premier lieu l’attaquant réalise un test d’arme+HAB. En cas d’échec, le projectile ne touche pas sa cible. La difficulté du test est indiquée dans le tableau suivant :
+En premier lieu l’attaquant réalise un test d’arme+HAB. En cas d’échec, le projectile ne touche pas sa cible. La difficulté du test est indiquée dans le tableau \ref{TableauDifficultéTir}. Ce tableau indique les difficultés pour tirer sur une cible humaine, et sans couvert.
+\begin{table*}
+\caption{Difficultés de tir}
+\label{TableauDifficultéTir}
+\begin{center}
+\begin{tabular}{ccc}
+\textbf{Portée} & \textbf{calcul}& \textbf{Difficulté} \\
+   En-dessous de Portée/5 & tir à bout portant & 1  \\
+   jusqu'à portée & tir normal & 2 \\
+jusqu'à portée *2 & tir à portée longue & 3 \\
+jusqu'à portée *3 & tir en cloche & 4 \\
+au-delà de portée *4 & portée extrême & 5
+\end{tabular}
+\end{center}
+\end{table*}
 
-
-%TODO : tableau difficulté de tir
-
-
+%TODO faire tableau des modificateurs à distance
 En cas de réussite, le défenseur effectue un test de VIT+défense, avec un seuil dépendant du type de tir effectué. Pour cela, on peut se référer à la table \ref{tableDiffContreTirs}.
 
 \begin{table}

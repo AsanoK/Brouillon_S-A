@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.11)  11 SEP 2018 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.16)  19 SEP 2018 08:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -533,138 +533,153 @@ Underfull \hbox (badness 3209) in paragraph at lines 334--335
 []\T1/cmr/m/n/10 Un coup in-flige une blessure si après les
  []
 
+
+Underfull \hbox (badness 1043) in paragraph at lines 368--369
+[]\T1/cmr/m/n/10 Les ef-fets, c'est l'ensemble des con-séquences
+ []
+
 [17]
-Underfull \hbox (badness 1314) in paragraph at lines 415--416
+Underfull \hbox (badness 2189) in paragraph at lines 396--397
+[]\T1/cmr/m/n/10 Par ailleurs, les dif-férentes com-pé-tences de
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 401--402
+[]\T1/cmr/m/n/10 Médecine : per-met de lim-iter les risques
+ []
+
+[18]
+Underfull \hbox (badness 1314) in paragraph at lines 490--491
 \T1/cmr/m/n/10 un test en op-po-si-tion en-tre la VIT+arme de
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 419--420
+Underfull \hbox (badness 2932) in paragraph at lines 494--495
 []\T1/cmr/m/n/10 En cas d'échec, le défenseur peut dé-cider
  []
 
-
-Underfull \hbox (badness 2310) in paragraph at lines 435--439
+[19]
+Underfull \hbox (badness 2310) in paragraph at lines 510--514
 \T1/cmr/m/n/10 posé de Corps à corps + VIT, et de con-
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 435--439
+Underfull \hbox (badness 1824) in paragraph at lines 510--514
 \T1/cmr/m/n/10 tin-uer comme s'il s'agissait d'une at-taque de
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 435--439
+Underfull \hbox (badness 1221) in paragraph at lines 510--514
 \T1/cmr/m/n/10 mêlée nor-male (les valeurs de dégâts des po-
  []
 
 
-Overfull \hbox (134.89032pt too wide) in paragraph at lines 458--467
+Overfull \hbox (134.89032pt too wide) in paragraph at lines 533--542
  [] 
  []
 
-[18]
-Underfull \hbox (badness 1603) in paragraph at lines 522--523
+[20] [21]
+Underfull \hbox (badness 1603) in paragraph at lines 608--609
 \T1/cmr/m/n/10 Comme in-diqué précédem-ment, il ex-iste deux
  []
 
-[19]
-Underfull \hbox (badness 2460) in paragraph at lines 540--542
+
+Underfull \hbox (badness 2460) in paragraph at lines 626--628
 \T1/cmr/m/n/10 Il est pos-si-ble de porter plusieurs épais-seurs
  []
 
-[20] [21]
-Underfull \hbox (badness 1490) in paragraph at lines 583--584
+[22] [23]
+Underfull \hbox (badness 1490) in paragraph at lines 669--670
 \T1/cmr/m/n/10 Utilisation de la struc-ture lamel-laire (lamelles
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 583--584
+Underfull \hbox (badness 3514) in paragraph at lines 669--670
 \T1/cmr/m/n/10 rel-a-tive-ment basique, mais plutôt ef-fi-cace et
  []
 
-[22]
+[24]
 Chapter 3.
-[23
+[25
 
 ]
-Underfull \hbox (badness 4217) in paragraph at lines 643--645
+Underfull \hbox (badness 4217) in paragraph at lines 729--731
 \T1/cmr/m/n/10 L'enfance du per-son-nage n'est pas vrai-ment
  []
 
 
 Underfull \vbox (badness 1112) has occurred while \output is active []
 
- [24]
-[25]
-Underfull \hbox (badness 1038) in paragraph at lines 678--680
+ [26]
+[27]
+Underfull \hbox (badness 1038) in paragraph at lines 764--766
 \T1/cmr/m/n/10 Le per-son-nage a étudié la magie auprès d'un
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 693--695
+Underfull \hbox (badness 1377) in paragraph at lines 779--781
 \T1/cmr/m/n/10 Le per-son-nage a passé l'adolescence avec une
  []
 
-[26]
-Underfull \hbox (badness 1635) in paragraph at lines 728--730
+[28]
+Underfull \hbox (badness 1635) in paragraph at lines 814--816
 \T1/cmr/m/n/10 Le per-son-nage dirige des ac-tiv-ités crim-inelles,
  []
 
-[27]
-Underfull \hbox (badness 1168) in paragraph at lines 747--749
+[29]
+Underfull \hbox (badness 1168) in paragraph at lines 833--835
 \T1/cmr/m/n/10 tromperie. cer-tains l'ont bien com-pris et de
  []
 
-[28] [29]
-Underfull \hbox (badness 1152) in paragraph at lines 777--779
+[30] [31]
+Underfull \hbox (badness 1152) in paragraph at lines 863--865
 \T1/cmr/m/n/10 Chaque re-li-gion a ses prêtres, qui in-ter-cè-dent
  []
 
 
 Underfull \vbox (badness 1019) has occurred while \output is active []
 
- [30]
-Underfull \hbox (badness 7116) in paragraph at lines 821--822
+ [32]
+Underfull \hbox (badness 7116) in paragraph at lines 907--908
 \T1/cmr/m/n/10 Le per-son-nage sait lire et écrire, quoique
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 827--828
+Underfull \hbox (badness 2573) in paragraph at lines 913--914
 \T1/cmr/m/n/10 Le per-son-nage fait par-tie d'une or-gan-i-sa-tion,
  []
 
-[31]
-Underfull \hbox (badness 1803) in paragraph at lines 839--840
+[33]
+Underfull \hbox (badness 1803) in paragraph at lines 925--926
 \T1/cmr/m/n/10 Le per-son-nage est recher-ché par une fac-tion,
  []
 
-[32]
+[34]
 Chapter 4.
-[33
-
-] [34
-
-] [35
-
+[35
 
 ] [36
 
+] [37
 
-] (./regles.toc [37] [38])
+
+] [38
+
+
+] (./regles.toc [39] [40])
 \tf@toc=\write3
 \openout3 = `regles.toc'.
 
- [39] (./regles.aux)
+ [41] (./regles.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 1742 strings out of 494880
- 18001 string characters out of 6179601
- 74141 words of memory out of 5000000
- 5061 multiletter control sequences out of 15000+600000
+ 1745 strings out of 494880
+ 18067 string characters out of 6179601
+ 75141 words of memory out of 5000000
+ 5064 multiletter control sequences out of 15000+600000
  19289 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  27i,8n,24p,896b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -679,10 +694,10 @@ ppen/ec/ecrm1000.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecrm1200.600pk> </home/antoine/.texlive2017/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb>
-Output written on regles.pdf (39 pages, 212545 bytes).
+Output written on regles.pdf (41 pages, 219702 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
+ 554 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
