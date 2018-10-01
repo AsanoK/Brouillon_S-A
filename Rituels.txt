@@ -4,4 +4,5 @@ rituels (et type de compétence lié)
 -invocation (religion ou shamanisme, suivant l'entité)
 -contrainte (religion)
 -influence du climat (shamanisme)
+-manipulation élémentaire (???) : mouvement de terrain, d'eau, de vent....
 -
